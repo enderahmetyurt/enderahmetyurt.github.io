@@ -3,8 +3,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://localhost:4000/</id>
   <title>EAY</title>
-  <subtitle>Life is matter</subtitle>
-  <updated>2024-03-14T21:14:06+03:00</updated>
+  <subtitle>The running of a free soul</subtitle>
+  <updated>2024-03-14T21:45:40+03:00</updated>
   <author>
     <name>Ender Ahmet Yurt</name>
     <uri>http://localhost:4000/</uri>
@@ -20,23 +20,23 @@
 
   
   <entry>
-    <title>Ruby Enumerable</title>
-    <link href="http://localhost:4000/posts/ruby-enumerable/" rel="alternate" type="text/html" title="Ruby Enumerable" />
-    <published>2016-05-16T00:00:00+03:00</published>
+    <title>New Theme</title>
+    <link href="http://localhost:4000/posts/new-theme/" rel="alternate" type="text/html" title="New Theme" />
+    <published>2024-03-14T21:35:00+03:00</published>
   
-    <updated>2016-05-16T00:00:00+03:00</updated>
+    <updated>2024-03-14T21:35:00+03:00</updated>
   
-    <id>http://localhost:4000/posts/ruby-enumerable/</id>
-    <content src="http://localhost:4000/posts/ruby-enumerable/" />
+    <id>http://localhost:4000/posts/new-theme/</id>
+    <content src="http://localhost:4000/posts/new-theme/" />
     <author>
       <name>Ender Ahmet Yurt</name>
     </author>
 
   
     
-    <category term="Programming" />
+    <category term="Personal" />
     
-    <category term="Turkish" />
+    <category term="English" />
     
   
 
@@ -48,11 +48,10 @@
 
 
 
-      Merhaba! Bugün Ruby’de hemen hemen her gün kullandığımız Enumerable metotlarından bahsetmek istiyorum.
+      I’ve embraced the journey of exploring countless blog themes, and I’m far from done. This theme is the current chapter in an ongoing story of growth and transformation. Rest assured, this blog will continue to evolve and flourish with time.
 
-Bu yazıda kullanılan örnekleri daha iyi anlayabilmek için öncelikle Ruby’de Array ve Hash kavramlarını biraz olsun bilmeniz gerekiyor.
+Transferring old blog posts? Not a chance. I choose the invigorating freshness of a new beginning. Onwards and upwards! 🙌
 
-Ruby’de Enumerable modülüne ihtiyaç duymamızın nedeni colletion’lar üzerinde daha hızlı ve kolay çalışmalar yapabilmektir. Örneğin, bir collection içindeki b...
     </summary>
   
 

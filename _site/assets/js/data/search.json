@@ -1,11 +1,11 @@
 [
   
   {
-    "title": "Ruby Enumerable",
-    "url": "/posts/ruby-enumerable/",
-    "categories": "Programming, Turkish",
-    "tags": "ruby",
-    "date": "2016-05-16 00:00:00 +0300",
+    "title": "New Theme",
+    "url": "/posts/new-theme/",
+    "categories": "Personal, English",
+    "tags": "general",
+    "date": "2024-03-14 21:35:00 +0300",
     
 
 
@@ -13,8 +13,8 @@
 
 
     
-    "snippet": "Merhaba! Bugün Ruby’de hemen hemen her gün kullandığımız Enumerable metotlarından bahsetmek istiyorum.Bu yazıda kullanılan örnekleri daha iyi anlayabilmek için öncelikle Ruby’de Array ve Hash kavra...",
-    "content": "Merhaba! Bugün Ruby’de hemen hemen her gün kullandığımız Enumerable metotlarından bahsetmek istiyorum.Bu yazıda kullanılan örnekleri daha iyi anlayabilmek için öncelikle Ruby’de Array ve Hash kavramlarını biraz olsun bilmeniz gerekiyor.Ruby’de Enumerable modülüne ihtiyaç duymamızın nedeni colletion’lar üzerinde daha hızlı ve kolay çalışmalar yapabilmektir. Örneğin, bir collection içindeki bütün tek sayıları getirmek için döngüler ve if bloklarını kullanabiliriz. Ancak bunun yerine Enumerable modülünde tanımlı metotlardan yardım alabiliyoruz.Enumerable ın metotlarını aşağıdaki gibi sıralayabiliriz.&gt; Enumerable.instance_metots.sort=&gt; [:all?, :any?, :chunk, :collect, :collect_concat, :count, :cycle, :detect, :drop, :drop_while, :each_cons, :each_entry, :each_slice, :each_with_index, :each_with_object, :entries, :find, :find_all, :find_index, :first, :flat_map, :grep, :group_by, :include?, :inject, :lazy, :map, :max, :max_by, :member?, :min, :min_by, :minmax, :minmax_by, :none?, :one?, :partition, :reduce, :reject, :reverse_each, :select, :slice_before, :sort, :sort_by, :take, :take_while, :to_a, :to_h, :zip]Bunların bazılarından bahsetmek gerekirse.#each_with_indexeach ile bir collection içindeki elemanları tek tek gezebiliriz.&gt; [1,2,3].each { |num| print \"Number: #{num} \" }=&gt; Number: 1 Number: 2 Number: 3Bu elemanların tek tek index’lerine ulaşmak için ise each_with_indexi kullanabiliriz.&gt; [9,8,7].each_with_index do |e,i|&gt;   puts \"Index: #{i} Number: #{e}\"&gt; end=&gt; Index: 0 Number: 9=&gt; Index: 1 Number: 8=&gt; Index: 2 Number: 7#mapBir collection içindeki elemanlar üzerinde çalışmaklar yapmak istiyorsak map kullanmak en iyisi olacaktır.&gt; [5,10,20].map{|e| puts e**2}=&gt; 25=&gt; 100=&gt; 400#selectBazı durumlarda bir collection içinden belli bir duruma bağlı olarak değeri ya da değerleri almak isteyebiliriz. Bu durumda select kullanırsak kodumuzu daha anlaşılır yazmış oluruz.&gt; (1..20).to_a.select{|n| n.odd?}=&gt; [1, 3, 5, 7, 9, 11, 13, 15, 17, 19]1 ile 20 arasındaki tüm tek sayıları ekrana bastık.#rejectSeçmenin dışında bir collection’dan çıkarmak istediğimiz elemanlarımız da olabilir. Bu gibi durumlarda ise reject kullanabiliriz.&gt; (1..20).to_a.reject{|n| n.odd?}=&gt; [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]Yukarıda gördüğünüz gibi 1 ile 20 arasındaki tek sayıları çıkardım ve yeni array’im artık 1 ile 20 arasındaki çift sayılar oldu.#any?Bu metot bize duruma göre true ya da false bir boolean değer dönecektir. Eğer bir collection içinde bir duruma göre bir elemanın bulunup, bulumadığını kontrol etmek istiyorsak any? kullanabiliriz.&gt; (1..20).to_a.any?{|n| n&gt;20}=&gt; false#group_by?Sanırım kullanımı en karizmatik metot bu olabilir. Elimizdeki bir collection’ı istediğimiz bir duruma göre gruplamamıza yarıyor ve bize bir Hash dönüyor.&gt; [\"ali\", \"mehmet\", \"osman\", \"ayşe\", \"emine\"].group_by(&amp;:length)=&gt; {3=&gt;[\"ali\"], 6=&gt;[\"mehmet\"], 5=&gt;[\"osman\", \"emine\"], 4=&gt;[\"ayşe\"]}Yukarıda da görüldüğü gibi içinde String’ler olan Array’imizi String’lerin uzunluklarına göre grupladık.#sortAdı üstünde :)&gt; [\"ali\", \"mehmet\", \"osman\", \"ayşe\", \"emine\"].group_by(&amp;:length).sort=&gt; [[3, [\"ali\"]], [4, [\"ayşe\"]], [5, [\"osman\", \"emine\"]], [6, [\"mehmet\"]]]Tabiki bütün kullanımlar bu kadar değil. Daha fazlası da var. Belki başka bir yazıda daha detaylı olarak diğer kullanımlardan örnekler verebilirim.Sevgiler."
+    "snippet": "I’ve embraced the journey of exploring countless blog themes, and I’m far from done. This theme is the current chapter in an ongoing story of growth and transformation. Rest assured, this blog will...",
+    "content": "I’ve embraced the journey of exploring countless blog themes, and I’m far from done. This theme is the current chapter in an ongoing story of growth and transformation. Rest assured, this blog will continue to evolve and flourish with time.Transferring old blog posts? Not a chance. I choose the invigorating freshness of a new beginning. Onwards and upwards! 🙌"
   }
   
 ]
