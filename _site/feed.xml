@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>EAY</title>
   <subtitle>The running of a free soul</subtitle>
-  <updated>2024-03-20T09:03:29+03:00</updated>
+  <updated>2024-03-21T17:02:56+03:00</updated>
   <author>
     <name>Ender Ahmet Yurt</name>
     <uri>http://localhost:4000/</uri>
@@ -24,7 +24,7 @@
     <link href="http://localhost:4000/posts/new-theme/" rel="alternate" type="text/html" title="New Theme" />
     <published>2024-03-14T21:35:00+03:00</published>
   
-    <updated>2024-03-14T21:57:12+03:00</updated>
+    <updated>2024-03-20T09:04:40+03:00</updated>
   
     <id>http://localhost:4000/posts/new-theme/</id>
     <content src="http://localhost:4000/posts/new-theme/" />
