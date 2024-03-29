@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>EAY</title>
   <subtitle>The running of a free soul</subtitle>
-  <updated>2024-03-21T17:02:56+03:00</updated>
+  <updated>2024-03-29T14:58:22+03:00</updated>
   <author>
     <name>Ender Ahmet Yurt</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,47 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Exploring the Latest Ruby News: March 2024 Roundup</title>
+    <link href="http://localhost:4000/posts/exploring-the-latest-ruby-news-march-2024-roundup/" rel="alternate" type="text/html" title="Exploring the Latest Ruby News: March 2024 Roundup" />
+    <published>2024-03-29T14:56:00+03:00</published>
+  
+    <updated>2024-03-29T14:56:00+03:00</updated>
+  
+    <id>http://localhost:4000/posts/exploring-the-latest-ruby-news-march-2024-roundup/</id>
+    <content src="http://localhost:4000/posts/exploring-the-latest-ruby-news-march-2024-roundup/" />
+    <author>
+      <name>Ender Ahmet Yurt</name>
+    </author>
+
+  
+    
+    <category term="Programming" />
+    
+    <category term="English" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Hey Ruby enthusiasts! It’s that time again where we dive into the latest happenings in Ruby community. From exciting new releases to insightful articles and events, there’s plenty to catch up on. So, grab your favorite beverage and let’s explore what’s been going on in March 2024.
+
+Conference Updates
+
+  
+    EuroKo 2024: EuroKo is back with its 2024 edition! Dive into the world of Ruby with thi...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
