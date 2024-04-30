@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>EAY</title>
   <subtitle>The running of a free soul</subtitle>
-  <updated>2024-04-04T17:51:24+03:00</updated>
+  <updated>2024-04-30T17:21:17+03:00</updated>
   <author>
     <name>Ender Ahmet Yurt</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,42 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>The First International Conference Experience</title>
+    <link href="http://localhost:4000/posts/the-first-international-conference-experience/" rel="alternate" type="text/html" title="The First International Conference Experience" />
+    <published>2024-04-30T17:11:00+03:00</published>
+  
+    <updated>2024-04-30T17:11:00+03:00</updated>
+  
+    <id>http://localhost:4000/posts/the-first-international-conference-experience/</id>
+    <content src="http://localhost:4000/posts/the-first-international-conference-experience/" />
+    <author>
+      <name>Ender Ahmet Yurt</name>
+    </author>
+
+  
+    
+    <category term="Personal" />
+    
+    <category term="English" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Hello! I attended Balkan Ruby 2024. Living in Turkey, I had never attended any conferences abroad. This was my first abroad conference, and I was very excited. I chose to attend Balkan Ruby as it was held in Sofia, and Bulgaria is very close to Turkey - just an hour’s flight away. I also appreciate their culture as it closely resembles ours in terms of history. Additionally, I had never been to...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
