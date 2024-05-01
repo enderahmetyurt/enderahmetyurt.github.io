@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>EAY</title>
   <subtitle>The running of a free soul</subtitle>
-  <updated>2024-05-01T13:32:04+03:00</updated>
+  <updated>2024-05-01T23:00:04+03:00</updated>
   <author>
     <name>Ender Ahmet Yurt</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,42 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Unveiling the Latest Gems: April 2024 Ruby and Rails Roundup</title>
+    <link href="http://localhost:4000/posts/exploring-the-latest-ruby-news-april-2024-roundup/" rel="alternate" type="text/html" title="Unveiling the Latest Gems: April 2024 Ruby and Rails Roundup" />
+    <published>2024-05-01T22:53:00+03:00</published>
+  
+    <updated>2024-05-01T22:53:00+03:00</updated>
+  
+    <id>http://localhost:4000/posts/exploring-the-latest-ruby-news-april-2024-roundup/</id>
+    <content src="http://localhost:4000/posts/exploring-the-latest-ruby-news-april-2024-roundup/" />
+    <author>
+      <name>Ender Ahmet Yurt</name>
+    </author>
+
+  
+    
+    <category term="Programming" />
+    
+    <category term="English" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Welcome back, Ruby enthusiasts! Unfortunately, I wasn’t able to gather a substantial amount of news this time, primarily because April proved to be an exceptionally busy month for me. My commitments and responsibilities during this period significantly limited my ability to stay up-to-date with current events. As we bid farewell to March and step into April, let’s uncover the latest treasures i...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
