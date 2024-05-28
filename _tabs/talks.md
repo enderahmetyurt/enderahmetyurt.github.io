@@ -13,6 +13,7 @@ order: 2
 
 <h2>Talks</h2>
 <ul>
+  <li><i>2024 May</i> -  Rails Girls Ankara - Start to the Engine</li>
   <li><i>2024 May</i> -  19 Mayıs Üniversitesi IEEE Kulübü Kariyer Günleri - 12 Sene 12 Başlık</li>
   <li><i>2023 December</i> -  Özgür Yazılım Topluluğu <a href="https://www.youtube.com/watch?v=c486F7vwdq4">Haaave you met Ruby on Rails (Online)</a></li>
   <li><i>2020 June</i> - ACM Hacettepe - <a href="https://www.youtube.com/watch?v=9p74XLrshEA" target="_blank">Pandemide Yazılımcı Olmak (Online)</a></li>
