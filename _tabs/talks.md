@@ -6,6 +6,7 @@ order: 2
 
 <h2>Bootcamps</h2>
 <ul>
+<li><i>2024 May - 2024 May</i><a href="https://www.patika.dev/en/bootcamp/iwallet-turkiye-ruby-on-rails-bootcamp" target="_blank"> - PatikaDev Ruby on Rails Bootcamp - </a>Ruby on Rails Tutor (40 hours)</li>
   <li><i>2021 September - 2021 October</i><a href="https://www.patika.dev/en/bootcamp/protein-ruby-on-rails-bootcamp" target="_blank"> - PatikaDev Ruby on Rails Bootcamp - </a>Ruby on Rails Tutor (70 hours)</li>
   <li><i>2020 September - 2020 November</i><a href="https://www.kodluyoruz.org/bootcamp/istanbul-ruby-on-rails-bootcamp/" target="_blank"> - Kodluyoruzorg Ruby on Rails Bootcamp - </a>Ruby on Rails Tutor (70 hours)</li>
   <li><i>2019 July</i> - Özgür Yazılım Kampı - Ruby on Rails Sınıfı Eğitmeni (4 Days)</li>
