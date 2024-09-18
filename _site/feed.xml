@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>EAY</title>
   <subtitle>The running of a free soul</subtitle>
-  <updated>2024-09-16T15:52:47+03:00</updated>
+  <updated>2024-09-18T12:38:25+03:00</updated>
   <author>
     <name>Ender Ahmet Yurt</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,42 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Euruko 2024 and My Feelings</title>
+    <link href="http://localhost:4000/posts/euruko-2024-and-my-feelings/" rel="alternate" type="text/html" title="Euruko 2024 and My Feelings" />
+    <published>2024-09-17T22:11:00+03:00</published>
+  
+    <updated>2024-09-17T22:11:00+03:00</updated>
+  
+    <id>http://localhost:4000/posts/euruko-2024-and-my-feelings/</id>
+    <content src="http://localhost:4000/posts/euruko-2024-and-my-feelings/" />
+    <author>
+      <name>Ender Ahmet Yurt</name>
+    </author>
+
+  
+    
+    <category term="Personal" />
+    
+    <category term="English" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Hello! I am still working professionally with the Ruby programming language, which I first started in 2011. I love the community as much as the language itself, and I am always proud to be a part of this community. I also try to organize people and do things on my own. Additionally, I enjoy getting together with other people who are devoted to the Ruby programming language, spending time with t...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
