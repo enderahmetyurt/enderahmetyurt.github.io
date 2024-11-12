@@ -4,16 +4,9 @@ icon: fas fa-person-chalkboard
 order: 2
 ---
 
-<h2>Bootcamps</h2>
-<ul>
-<li><i>2024 May - 2024 May</i><a href="https://www.patika.dev/en/bootcamp/iwallet-turkiye-ruby-on-rails-bootcamp" target="_blank"> - PatikaDev Ruby on Rails Bootcamp - </a>Ruby on Rails Tutor (40 hours)</li>
-  <li><i>2021 September - 2021 October</i><a href="https://www.patika.dev/en/bootcamp/protein-ruby-on-rails-bootcamp" target="_blank"> - PatikaDev Ruby on Rails Bootcamp - </a>Ruby on Rails Tutor (70 hours)</li>
-  <li><i>2020 September - 2020 November</i><a href="https://www.kodluyoruz.org/bootcamp/istanbul-ruby-on-rails-bootcamp/" target="_blank"> - Kodluyoruzorg Ruby on Rails Bootcamp - </a>Ruby on Rails Tutor (70 hours)</li>
-  <li><i>2019 July</i> - Özgür Yazılım Kampı - Ruby on Rails Sınıfı Eğitmeni (4 Days)</li>
-</ul>
-
 <h2>Talks</h2>
 <ul>
+  <li><i>2024 Nov</i> -  Google Developers Group Samsun - Gemini and Ruby on Rails</li>
   <li><i>2024 May</i> -  Rails Girls Ankara - Start to the Engine</li>
   <li><i>2024 May</i> -  19 Mayıs Üniversitesi IEEE Kulübü Kariyer Günleri - 12 Sene 12 Başlık</li>
   <li><i>2023 December</i> -  Özgür Yazılım Topluluğu <a href="https://www.youtube.com/watch?v=c486F7vwdq4">Haaave you met Ruby on Rails (Online)</a></li>
@@ -40,4 +33,12 @@ order: 2
   <li><i>2021 January </i><a href="https://open.spotify.com/episode/5ckxE9u8N0vl9pqNmsyKf4" target="_blank"> Çağatay'ın Mikrofonu</a></li>
   <li><i>2019 September </i><a href="https://www.youtube.com/watch?v=cBdwlPcjzjQ" target="_blank"> Doğukan Güven Nomak - Developer Talks</a></li>
   <li><i>2016 November </i><a href="https://calismamasam.com/ender-ahmet-yurt" target="_blank"> ÇalışmaMasam</a></li>
+</ul>
+
+<h2>Bootcamps</h2>
+<ul>
+<li><i>2024 May - 2024 May</i><a href="https://www.patika.dev/en/bootcamp/iwallet-turkiye-ruby-on-rails-bootcamp" target="_blank"> - PatikaDev Ruby on Rails Bootcamp - </a>Ruby on Rails Tutor (40 hours)</li>
+  <li><i>2021 September - 2021 October</i><a href="https://www.patika.dev/en/bootcamp/protein-ruby-on-rails-bootcamp" target="_blank"> - PatikaDev Ruby on Rails Bootcamp - </a>Ruby on Rails Tutor (70 hours)</li>
+  <li><i>2020 September - 2020 November</i><a href="https://www.kodluyoruz.org/bootcamp/istanbul-ruby-on-rails-bootcamp/" target="_blank"> - Kodluyoruzorg Ruby on Rails Bootcamp - </a>Ruby on Rails Tutor (70 hours)</li>
+  <li><i>2019 July</i> - Özgür Yazılım Kampı - Ruby on Rails Sınıfı Eğitmeni (4 Days)</li>
 </ul>
