@@ -19,7 +19,7 @@ Let me explain how I got into this field. Growing up, I wasn't particularly inte
 
 > Developing software is nice, but another world is also possible.
 
-'m naturally outgoing and enjoy connecting with people. Spending time together and sharing experiences brings me joy. I'm honest about who I am - I enjoy recognition for my work. What makes me truly happy is public speaking, organizing groups, taking the lead, and achieving goals with others. I discovered these things about myself during my university years.
+I'm naturally outgoing and enjoy connecting with people. Spending time together and sharing experiences brings me joy. I'm honest about who I am - I enjoy recognition for my work. What makes me truly happy is public speaking, organizing groups, taking the lead, and achieving goals with others. I discovered these things about myself during my university years.
 
 This self-discovery in college proved valuable for my career. School played a crucial role in my life, particularly in learning English. Though I sometimes questioned why I needed these skills, they've become incredibly useful. Today, I can talk to people around the world. I have friends across the globe for two main reasons: my career in technology and my ability to speak English.
 
