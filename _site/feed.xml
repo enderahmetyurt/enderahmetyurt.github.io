@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>EAY</title>
   <subtitle>The running of a free soul</subtitle>
-  <updated>2024-11-27T16:34:18+03:00</updated>
+  <updated>2024-11-29T16:57:08+03:00</updated>
   <author>
     <name>Ender Ahmet Yurt</name>
     <uri>http://localhost:4000/</uri>
@@ -20,11 +20,43 @@
 
   
   <entry>
+    <title>Accessing Values in a Hash with dig in Ruby: Differences and Alternatives</title>
+    <link href="http://localhost:4000/posts/accessing-values-in-a-hash-with-dig-in-ruby-differences-and-alternatives/" rel="alternate" type="text/html" title="Accessing Values in a Hash with dig in Ruby: Differences and Alternatives" />
+    <published>2024-11-29T16:36:00+03:00</published>
+  
+    <updated>2024-11-29T16:36:00+03:00</updated>
+  
+    <id>http://localhost:4000/posts/accessing-values-in-a-hash-with-dig-in-ruby-differences-and-alternatives/</id>
+    <content src="http://localhost:4000/posts/accessing-values-in-a-hash-with-dig-in-ruby-differences-and-alternatives/" />
+    <author>
+      <name>Ender Ahmet Yurt</name>
+    </author>
+
+  
+    
+    <category term="Development" />
+    
+    <category term="English" />
+    
+  
+
+  <summary>Hello 👋
+
+Ruby provides multiple ways to access Hash values. The dig method offers a safe approach for retrieving values from nested Hash or Array structures. Let’s explore how dig works, along with its alternatives and key differences:
+
+Using dig
+
+The dig method lets you traverse nested structures by specifying a path of keys. Rather than raising an error when a key doesn’t exist, it simply ret...</summary>
+
+  </entry>
+
+  
+  <entry>
     <title>Another World is Also Possible.</title>
     <link href="http://localhost:4000/posts/another-world-is-also-possible/" rel="alternate" type="text/html" title="Another World is Also Possible." />
     <published>2024-11-26T15:11:00+03:00</published>
   
-    <updated>2024-11-26T15:11:00+03:00</updated>
+    <updated>2024-11-27T16:35:11+03:00</updated>
   
     <id>http://localhost:4000/posts/another-world-is-also-possible/</id>
     <content src="http://localhost:4000/posts/another-world-is-also-possible/" />
