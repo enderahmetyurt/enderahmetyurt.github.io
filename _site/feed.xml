@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>EAY</title>
   <subtitle>The running of a free soul</subtitle>
-  <updated>2024-11-29T16:57:08+03:00</updated>
+  <updated>2024-12-05T17:22:41+03:00</updated>
   <author>
     <name>Ender Ahmet Yurt</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,36 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Problems with If Clauses</title>
+    <link href="http://localhost:4000/posts/problems-with-if-clauses/" rel="alternate" type="text/html" title="Problems with If Clauses" />
+    <published>2024-12-05T16:51:00+03:00</published>
+  
+    <updated>2024-12-05T16:51:00+03:00</updated>
+  
+    <id>http://localhost:4000/posts/problems-with-if-clauses/</id>
+    <content src="http://localhost:4000/posts/problems-with-if-clauses/" />
+    <author>
+      <name>Ender Ahmet Yurt</name>
+    </author>
+
+  
+    
+    <category term="Development" />
+    
+    <category term="English" />
+    
+  
+
+  <summary>Hello 👋
+
+When I started learning Ruby programming, I loved using if statements because they were easy to understand and could be used everywhere. However, as I built bigger projects, I noticed a problem: my code became messy and hard to understand. I had too many nested if statements, and my logic was scattered all over the place.
+
+I learned an important lesson: writing good if statements isn’t...</summary>
+
+  </entry>
 
   
   <entry>
@@ -129,34 +159,6 @@ When I started my career, I was full of energy and saw endless possibilities ahe
   <summary>Hello! I attended Balkan Ruby 2024. I had never attended any conferences abroad. This was my first abroad conference, and I was very excited. I chose to attend Balkan Ruby as it was held in Sofia, and Bulgaria is very close to Turkey - just an hour’s flight away. I also appreciate their culture as it closely resembles ours in terms of history. Additionally, I had never been to Sofia before.
 
 I ...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>New Theme</title>
-    <link href="http://localhost:4000/posts/new-theme/" rel="alternate" type="text/html" title="New Theme" />
-    <published>2024-03-14T21:35:00+03:00</published>
-  
-    <updated>2024-03-20T09:04:40+03:00</updated>
-  
-    <id>http://localhost:4000/posts/new-theme/</id>
-    <content src="http://localhost:4000/posts/new-theme/" />
-    <author>
-      <name>Ender Ahmet Yurt</name>
-    </author>
-
-  
-    
-    <category term="Personal" />
-    
-    <category term="English" />
-    
-  
-
-  <summary>I’ve embraced the journey of exploring countless blog themes, and I’m far from done. This theme is the current chapter in an ongoing story of growth and transformation. Rest assured, this blog will continue to evolve and flourish with time.
-
-Transferring old blog posts? Not a chance. I choose the invigorating freshness of a new beginning. Onwards and upwards! 🙌</summary>
 
   </entry>
 
