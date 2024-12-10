@@ -9,7 +9,7 @@ order: 1
 </p>
 
 <p class="message">
-  I enjoy developing web applications, especially focusing on contributing to various open-source projects on GitHub. Since 2014, I have been leading a local community called Ruby Turkey. For more information about me, you can visit my <a href="https://www.linkedin.com/in/enderahmetyurt/">Linkedin</a> profile, and you can also follow me on <a href="https://github.com/enderahmetyurt">Github</a> and <a href="https://twitter.com/eayurtTwitter">Twitter</a>
+  I enjoy developing web applications, especially focusing on contributing to various open-source projects on GitHub. Since 2014, I have been leading a local community called Ruby Turkey. For more information about me, you can visit my <a href="https://www.linkedin.com/in/enderahmetyurt/">Linkedin</a> profile, and you can also follow me on <a href="https://github.com/enderahmetyurt">Github</a>, <a href="https://bsky.app/profile/enderahmetyurt.com">BlueSky</a>, and <a href="https://twitter.com/eayurtTwitter">Twitter</a>
 </p>
 
 <p class="message">
