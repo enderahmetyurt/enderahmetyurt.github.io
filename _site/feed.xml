@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>EAY</title>
   <subtitle>The running of a free soul</subtitle>
-  <updated>2024-12-10T17:30:42+03:00</updated>
+  <updated>2024-12-12T17:30:38+03:00</updated>
   <author>
     <name>Ender Ahmet Yurt</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,36 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Preventing Race Conditions in Rails: A Practical Guide</title>
+    <link href="http://localhost:4000/posts/preventing-race-conditions-in-rails-a-practical-guide/" rel="alternate" type="text/html" title="Preventing Race Conditions in Rails: A Practical Guide" />
+    <published>2024-12-12T17:15:00+03:00</published>
+  
+    <updated>2024-12-12T17:15:00+03:00</updated>
+  
+    <id>http://localhost:4000/posts/preventing-race-conditions-in-rails-a-practical-guide/</id>
+    <content src="http://localhost:4000/posts/preventing-race-conditions-in-rails-a-practical-guide/" />
+    <author>
+      <name>Ender Ahmet Yurt</name>
+    </author>
+
+  
+    
+    <category term="Development" />
+    
+    <category term="English" />
+    
+  
+
+  <summary>Hello 👋
+
+A race condition happens when two or more parts of a program try to change the same information at the same time. Think of it like two people trying to edit the same document simultaneously - it can lead to mistakes and unexpected results. This often happens in programs that run multiple tasks at once, where you can’t predict which task will finish first.
+
+Common Scenarios of Race Cond...</summary>
+
+  </entry>
 
   
   <entry>
@@ -131,34 +161,6 @@ When I started my career, I was full of energy and saw endless possibilities ahe
   
 
   <summary>Hello! I am still working professionally with the Ruby programming language, which I first started in 2011. I love the community as much as the language itself, and I am always proud to be a part of this community. I also try to organize people and do things on my own. Additionally, I enjoy getting together with other people who are devoted to the Ruby programming language, spending time with t...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>The First International Conference Experience</title>
-    <link href="http://localhost:4000/posts/the-first-international-conference-experience/" rel="alternate" type="text/html" title="The First International Conference Experience" />
-    <published>2024-04-30T17:11:00+03:00</published>
-  
-    <updated>2024-04-30T17:31:35+03:00</updated>
-  
-    <id>http://localhost:4000/posts/the-first-international-conference-experience/</id>
-    <content src="http://localhost:4000/posts/the-first-international-conference-experience/" />
-    <author>
-      <name>Ender Ahmet Yurt</name>
-    </author>
-
-  
-    
-    <category term="Personal" />
-    
-    <category term="English" />
-    
-  
-
-  <summary>Hello! I attended Balkan Ruby 2024. I had never attended any conferences abroad. This was my first abroad conference, and I was very excited. I chose to attend Balkan Ruby as it was held in Sofia, and Bulgaria is very close to Turkey - just an hour’s flight away. I also appreciate their culture as it closely resembles ours in terms of history. Additionally, I had never been to Sofia before.
-
-I ...</summary>
 
   </entry>
 

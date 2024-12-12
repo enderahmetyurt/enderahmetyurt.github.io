@@ -1,6 +1,23 @@
 [
   
   {
+    "title": "Preventing Race Conditions in Rails: A Practical Guide",
+    "url": "/posts/preventing-race-conditions-in-rails-a-practical-guide/",
+    "categories": "Development, English",
+    "tags": "ruby on rails",
+    "date": "2024-12-12 17:15:00 +0300",
+    
+
+
+
+
+
+    
+    "snippet": "Hello 👋A race condition happens when two or more parts of a program try to change the same information at the same time. Think of it like two people trying to edit the same document simultaneously ...",
+    "content": "Hello 👋A race condition happens when two or more parts of a program try to change the same information at the same time. Think of it like two people trying to edit the same document simultaneously - it can lead to mistakes and unexpected results. This often happens in programs that run multiple tasks at once, where you can’t predict which task will finish first.Common Scenarios of Race Conditions in Rails1. Updating the Same RecordWhen multiple requests try to update the same database record at the same time, the last operation may overwrite the others without accounting for changes made by other operations.# Two requests fetching and updating the same recorduser = User.find(1)user.balance += 100user.saveIf another process modifies the balance simultaneously, the final value may be incorrect.2. Concurrent Record CreationIf two or more processes attempt to create records with the same unique constraints (e.g., email or username), it might lead to duplication or errors.# Concurrent requests creating users with the same emailUser.create(email: \"test@example.com\")3. Background Jobs and Web RequestsA background job and a web request might access and modify the same resource, causing inconsistencies.How to Prevent Race Conditions in Rails1. Database TransactionsUse ActiveRecord transactions to group related operations into an atomic unit. If any operation in the transaction fails, the entire transaction is rolled back.ActiveRecord::Base.transaction do  user = User.find(1)  user.balance += 100  user.save!end2. Database-Level Locks  Use database locks to ensure only one process modifies a resource at a time.  Optimistic Locking: Rails provides built-in support for optimistic locking using the lock_version column. This approach checks if the record was modified by another process before saving.class User &lt; ApplicationRecord  # Add lock_version column in the tableenduser = User.find(1)user.balance += 100user.save! # Fails if lock_version has changed  Pessimistic Locking: Locks the database row to prevent other processes from modifying it until the lock is released.user = User.lock.find(1)user.balance += 100user.save!3. Uniqueness ConstraintsAdd database-level constraints (e.g., unique indexes) to prevent duplicate records.add_index :users, :email, unique: true4. Retry LogicImplement retries for operations that may fail due to race conditions.begin  user = User.find(1)  user.balance += 100  user.save!rescue ActiveRecord::StaleObjectError  retryend5. Background Job IdempotencyEnsure background jobs are idempotent so that running the job multiple times produces the same result.6. Custom Locking MechanismsUse Redis locks (e.g., with the redlock gem) or similar mechanisms for distributed systems.require 'redlock'redlock = Redlock::Client.new([redis_url])redlock.lock(\"user:#{user_id}:lock\", 2000) do  user = User.find(user_id)  user.balance += 100  user.save!endTools for Detecting Race Conditions  Testing: Write tests that simulate concurrent requests to uncover race conditions.  Concurrency Gems: Use tools like rspec-racecar or parallel_tests for testing concurrency.  Database Logging: Enable detailed database query logs to identify potential race conditions.By understanding the scenarios where race conditions can occur and implementing appropriate safeguards, you can build more robust and reliable Rails applications.❤️"
+  },
+  
+  {
     "title": "Problems with If Clauses",
     "url": "/posts/problems-with-if-clauses/",
     "categories": "Development, English",
