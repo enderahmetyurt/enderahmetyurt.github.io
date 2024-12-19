@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>EAY</title>
   <subtitle>The running of a free soul</subtitle>
-  <updated>2024-12-12T17:30:38+03:00</updated>
+  <updated>2024-12-19T16:45:30+03:00</updated>
   <author>
     <name>Ender Ahmet Yurt</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,37 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Before You Go Solo Project: A Developer Confrontation with Themself</title>
+    <link href="http://localhost:4000/posts/before-you-go-solo-project-a-developer-confrontation-with-themself/" rel="alternate" type="text/html" title="Before You Go Solo Project: A Developer Confrontation with Themself" />
+    <published>2024-12-18T20:29:00+03:00</published>
+  
+    <updated>2024-12-18T20:29:00+03:00</updated>
+  
+    <id>http://localhost:4000/posts/before-you-go-solo-project-a-developer-confrontation-with-themself/</id>
+    <content src="http://localhost:4000/posts/before-you-go-solo-project-a-developer-confrontation-with-themself/" />
+    <author>
+      <name>Ender Ahmet Yurt</name>
+    </author>
+
+  
+    
+    <category term="Personal" />
+    
+    <category term="English" />
+    
+  
+
+  <summary>Hello 👋
+
+Intro
+Welcome to another post where I’ll share what I learned from my Podiscover project. We’ll go through each lesson in detail to give you a good understanding of my journey.
+
+Before we start, I want to mention that I’ve made other videos about the mistakes I made during this project. If you want to learn more about the challenges I faced, you can find these videos here. The videos a...</summary>
+
+  </entry>
 
   
   <entry>
@@ -135,32 +166,6 @@ The dig method lets you traverse nested structures by specifying a path of keys.
   <summary>Hello 👋
 
 When I started my career, I was full of energy and saw endless possibilities ahead. But after 13 years in the same profession, something changed. Now I often wonder: Am I running out of challenges? Has my passion faded? Should I try something completely new? What’s holding me back from growing? Why do I lie awake at night? Am I focusing on the right things? If these questions sound fam...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Euruko 2024 and My Feelings</title>
-    <link href="http://localhost:4000/posts/euruko-2024-and-my-feelings/" rel="alternate" type="text/html" title="Euruko 2024 and My Feelings" />
-    <published>2024-09-17T22:11:00+03:00</published>
-  
-    <updated>2024-09-17T22:11:00+03:00</updated>
-  
-    <id>http://localhost:4000/posts/euruko-2024-and-my-feelings/</id>
-    <content src="http://localhost:4000/posts/euruko-2024-and-my-feelings/" />
-    <author>
-      <name>Ender Ahmet Yurt</name>
-    </author>
-
-  
-    
-    <category term="Personal" />
-    
-    <category term="English" />
-    
-  
-
-  <summary>Hello! I am still working professionally with the Ruby programming language, which I first started in 2011. I love the community as much as the language itself, and I am always proud to be a part of this community. I also try to organize people and do things on my own. Additionally, I enjoy getting together with other people who are devoted to the Ruby programming language, spending time with t...</summary>
 
   </entry>
 
