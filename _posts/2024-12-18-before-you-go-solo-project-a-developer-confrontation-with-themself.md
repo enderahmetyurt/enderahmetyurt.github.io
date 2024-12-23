@@ -2,7 +2,7 @@
 layout: post
 title: 'Before You Go Solo Project: A Developer Confrontation with Themself'
 date: 2024-12-18 20:29 +0300
-categories: [Personal, English]
+categories: [English, Personal]
 tags: [experience]
 image:
   path: /7exynu9pk/IMG_7031-2.JPG

@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>EAY</title>
   <subtitle>The running of a free soul</subtitle>
-  <updated>2024-12-19T16:45:30+03:00</updated>
+  <updated>2024-12-23T16:12:53+03:00</updated>
   <author>
     <name>Ender Ahmet Yurt</name>
     <uri>http://localhost:4000/</uri>
@@ -34,9 +34,9 @@
 
   
     
-    <category term="Personal" />
-    
     <category term="English" />
+    
+    <category term="Personal" />
     
   
 
@@ -65,9 +65,9 @@ Before we start, I want to mention that I’ve made other videos about the mista
 
   
     
-    <category term="Development" />
-    
     <category term="English" />
+    
+    <category term="Development" />
     
   
 
@@ -95,9 +95,9 @@ Common Scenarios of Race Cond...</summary>
 
   
     
-    <category term="Development" />
-    
     <category term="English" />
+    
+    <category term="Development" />
     
   
 
@@ -125,9 +125,9 @@ I learned an important lesson: writing good if statements isn’t...</summary>
 
   
     
-    <category term="Development" />
-    
     <category term="English" />
+    
+    <category term="Development" />
     
   
 
@@ -157,9 +157,9 @@ The dig method lets you traverse nested structures by specifying a path of keys.
 
   
     
-    <category term="Personal" />
-    
     <category term="English" />
+    
+    <category term="Personal" />
     
   
 

@@ -3,7 +3,7 @@
   {
     "title": "Before You Go Solo Project: A Developer Confrontation with Themself",
     "url": "/posts/before-you-go-solo-project-a-developer-confrontation-with-themself/",
-    "categories": "Personal, English",
+    "categories": "English, Personal",
     "tags": "experience",
     "date": "2024-12-18 20:29:00 +0300",
     
@@ -20,7 +20,7 @@
   {
     "title": "Preventing Race Conditions in Rails: A Practical Guide",
     "url": "/posts/preventing-race-conditions-in-rails-a-practical-guide/",
-    "categories": "Development, English",
+    "categories": "English, Development",
     "tags": "ruby on rails",
     "date": "2024-12-12 17:15:00 +0300",
     
@@ -37,7 +37,7 @@
   {
     "title": "Problems with If Clauses",
     "url": "/posts/problems-with-if-clauses/",
-    "categories": "Development, English",
+    "categories": "English, Development",
     "tags": "ruby",
     "date": "2024-12-05 16:51:00 +0300",
     
@@ -54,7 +54,7 @@
   {
     "title": "Accessing Values in a Hash with dig in Ruby: Differences and Alternatives",
     "url": "/posts/accessing-values-in-a-hash-with-dig-in-ruby-differences-and-alternatives/",
-    "categories": "Development, English",
+    "categories": "English, Development",
     "tags": "ruby",
     "date": "2024-11-29 16:36:00 +0300",
     
@@ -71,7 +71,7 @@
   {
     "title": "Another World is Also Possible.",
     "url": "/posts/another-world-is-also-possible/",
-    "categories": "Personal, English",
+    "categories": "English, Personal",
     "tags": "experience",
     "date": "2024-11-26 15:11:00 +0300",
     
@@ -88,7 +88,7 @@
   {
     "title": "Euruko 2024 and My Feelings",
     "url": "/posts/euruko-2024-and-my-feelings/",
-    "categories": "Personal, English",
+    "categories": "English, Personal",
     "tags": "conference",
     "date": "2024-09-17 22:11:00 +0300",
     
@@ -105,7 +105,7 @@
   {
     "title": "The First International Conference Experience",
     "url": "/posts/the-first-international-conference-experience/",
-    "categories": "Personal, English",
+    "categories": "English, Personal",
     "tags": "conference",
     "date": "2024-04-30 17:11:00 +0300",
     
@@ -122,7 +122,7 @@
   {
     "title": "New Theme",
     "url": "/posts/new-theme/",
-    "categories": "Personal, English",
+    "categories": "English, Personal",
     "tags": "general",
     "date": "2024-03-14 21:35:00 +0300",
     

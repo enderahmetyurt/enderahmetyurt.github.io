@@ -2,7 +2,7 @@
 layout: post
 title: The First International Conference Experience
 date: 2024-04-30 17:11 +0300
-categories: [Personal, English]
+categories: [English, Personal]
 tags: [conference]
 image:
   path: /7exynu9pk/balkanruby-me.jpeg

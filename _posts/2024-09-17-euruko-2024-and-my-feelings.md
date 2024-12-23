@@ -2,7 +2,7 @@
 layout: post
 title: Euruko 2024 and My Feelings
 date: 2024-09-17 22:11 +0300
-categories: [Personal, English]
+categories: [English, Personal]
 tags: [conference]
 image:
   path: /7exynu9pk/euruko-me.jpg

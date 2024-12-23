@@ -2,7 +2,7 @@
 layout: post
 title: 'Preventing Race Conditions in Rails: A Practical Guide'
 date: 2024-12-12 17:15 +0300
-categories: [Development, English]
+categories: [English, Development]
 tags: [ruby on rails]
 image:
   path: /7exynu9pk/IMG_4577.JPG
