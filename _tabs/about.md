@@ -13,7 +13,7 @@ order: 1
 </p>
 
 <p class="message">
-  I have been producing a podcast called <a href="https://uretimbandi.com/teknik">Üretim Bandı:Teknik</a>. It focuses on technology and software development. While the majority of the episodes are in Turkish, I have also recorded episodes in English.
+  I have been producing a podcast called <a href="https://uretimbandi.com/podcasts/teknik/">Üretim Bandı:Teknik</a>. It focuses on technology and software development. While the majority of the episodes are in Turkish, I have also recorded episodes in English.
 </p>
 
 <p class="message">

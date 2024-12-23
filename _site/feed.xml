@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>EAY</title>
   <subtitle>The running of a free soul</subtitle>
-  <updated>2024-12-23T16:12:53+03:00</updated>
+  <updated>2024-12-23T17:17:01+03:00</updated>
   <author>
     <name>Ender Ahmet Yurt</name>
     <uri>http://localhost:4000/</uri>
@@ -24,7 +24,7 @@
     <link href="http://localhost:4000/posts/before-you-go-solo-project-a-developer-confrontation-with-themself/" rel="alternate" type="text/html" title="Before You Go Solo Project: A Developer Confrontation with Themself" />
     <published>2024-12-18T20:29:00+03:00</published>
   
-    <updated>2024-12-18T20:29:00+03:00</updated>
+    <updated>2024-12-23T17:11:49+03:00</updated>
   
     <id>http://localhost:4000/posts/before-you-go-solo-project-a-developer-confrontation-with-themself/</id>
     <content src="http://localhost:4000/posts/before-you-go-solo-project-a-developer-confrontation-with-themself/" />
@@ -55,7 +55,7 @@ Before we start, I want to mention that I’ve made other videos about the mista
     <link href="http://localhost:4000/posts/preventing-race-conditions-in-rails-a-practical-guide/" rel="alternate" type="text/html" title="Preventing Race Conditions in Rails: A Practical Guide" />
     <published>2024-12-12T17:15:00+03:00</published>
   
-    <updated>2024-12-12T17:15:00+03:00</updated>
+    <updated>2024-12-23T17:11:49+03:00</updated>
   
     <id>http://localhost:4000/posts/preventing-race-conditions-in-rails-a-practical-guide/</id>
     <content src="http://localhost:4000/posts/preventing-race-conditions-in-rails-a-practical-guide/" />
@@ -85,7 +85,7 @@ Common Scenarios of Race Cond...</summary>
     <link href="http://localhost:4000/posts/problems-with-if-clauses/" rel="alternate" type="text/html" title="Problems with If Clauses" />
     <published>2024-12-05T16:51:00+03:00</published>
   
-    <updated>2024-12-05T16:51:00+03:00</updated>
+    <updated>2024-12-23T17:11:49+03:00</updated>
   
     <id>http://localhost:4000/posts/problems-with-if-clauses/</id>
     <content src="http://localhost:4000/posts/problems-with-if-clauses/" />
@@ -115,7 +115,7 @@ I learned an important lesson: writing good if statements isn’t...</summary>
     <link href="http://localhost:4000/posts/accessing-values-in-a-hash-with-dig-in-ruby-differences-and-alternatives/" rel="alternate" type="text/html" title="Accessing Values in a Hash with dig in Ruby: Differences and Alternatives" />
     <published>2024-11-29T16:36:00+03:00</published>
   
-    <updated>2024-11-29T16:36:00+03:00</updated>
+    <updated>2024-12-23T17:11:49+03:00</updated>
   
     <id>http://localhost:4000/posts/accessing-values-in-a-hash-with-dig-in-ruby-differences-and-alternatives/</id>
     <content src="http://localhost:4000/posts/accessing-values-in-a-hash-with-dig-in-ruby-differences-and-alternatives/" />
@@ -147,7 +147,7 @@ The dig method lets you traverse nested structures by specifying a path of keys.
     <link href="http://localhost:4000/posts/another-world-is-also-possible/" rel="alternate" type="text/html" title="Another World is Also Possible." />
     <published>2024-11-26T15:11:00+03:00</published>
   
-    <updated>2024-11-27T16:35:11+03:00</updated>
+    <updated>2024-12-23T17:11:49+03:00</updated>
   
     <id>http://localhost:4000/posts/another-world-is-also-possible/</id>
     <content src="http://localhost:4000/posts/another-world-is-also-possible/" />
