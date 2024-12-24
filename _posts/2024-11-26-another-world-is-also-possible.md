@@ -2,7 +2,7 @@
 layout: post
 title: Another World is Also Possible.
 date: 2024-11-26 15:11 +0300
-categories: [English, Personal]
+categories: [🇬🇧, Personal]
 tags: [experience]
 image:
   path: /7exynu9pk/IMG_5086.JPG

@@ -2,7 +2,7 @@
 layout: post
 title: 'Accessing Values in a Hash with dig in Ruby: Differences and Alternatives'
 date: 2024-11-29 16:36 +0300
-categories: [English, Development]
+categories: [🇬🇧, Development]
 tags: [ruby]
 image:
   path: /7exynu9pk/ruby-1.jpeg

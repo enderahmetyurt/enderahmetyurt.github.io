@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>EAY</title>
   <subtitle>The running of a free soul</subtitle>
-  <updated>2024-12-23T17:17:01+03:00</updated>
+  <updated>2024-12-24T16:44:22+03:00</updated>
   <author>
     <name>Ender Ahmet Yurt</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,36 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>2024, How Beautiful You Were</title>
+    <link href="http://localhost:4000/posts/2024-how-beautiful-you-were/" rel="alternate" type="text/html" title="2024, How Beautiful You Were" />
+    <published>2024-12-24T16:23:00+03:00</published>
+  
+    <updated>2024-12-24T16:23:00+03:00</updated>
+  
+    <id>http://localhost:4000/posts/2024-how-beautiful-you-were/</id>
+    <content src="http://localhost:4000/posts/2024-how-beautiful-you-were/" />
+    <author>
+      <name>Ender Ahmet Yurt</name>
+    </author>
+
+  
+    
+    <category term="🇬🇧" />
+    
+    <category term="Personal" />
+    
+  
+
+  <summary>Hello 👋
+
+It’s that time of year again - time for looking back and thinking about what happened this year. I’m sitting at my computer to write about my year. There’s a dog barking outside, and though it’s a bit distracting, I’ll manage. I’ve got my headphones on with some nice background music playing, so let’s get started, Ender.
+
+If you haven’t read my writings (Turkish) from previous years, y...</summary>
+
+  </entry>
 
   
   <entry>
@@ -34,7 +64,7 @@
 
   
     
-    <category term="English" />
+    <category term="🇬🇧" />
     
     <category term="Personal" />
     
@@ -65,7 +95,7 @@ Before we start, I want to mention that I’ve made other videos about the mista
 
   
     
-    <category term="English" />
+    <category term="🇬🇧" />
     
     <category term="Development" />
     
@@ -95,7 +125,7 @@ Common Scenarios of Race Cond...</summary>
 
   
     
-    <category term="English" />
+    <category term="🇬🇧" />
     
     <category term="Development" />
     
@@ -125,7 +155,7 @@ I learned an important lesson: writing good if statements isn’t...</summary>
 
   
     
-    <category term="English" />
+    <category term="🇬🇧" />
     
     <category term="Development" />
     
@@ -138,34 +168,6 @@ Ruby provides multiple ways to access Hash values. The dig method offers a safe 
 Using dig
 
 The dig method lets you traverse nested structures by specifying a path of keys. Rather than raising an error when a key doesn’t exist, it simply ret...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Another World is Also Possible.</title>
-    <link href="http://localhost:4000/posts/another-world-is-also-possible/" rel="alternate" type="text/html" title="Another World is Also Possible." />
-    <published>2024-11-26T15:11:00+03:00</published>
-  
-    <updated>2024-12-23T17:11:49+03:00</updated>
-  
-    <id>http://localhost:4000/posts/another-world-is-also-possible/</id>
-    <content src="http://localhost:4000/posts/another-world-is-also-possible/" />
-    <author>
-      <name>Ender Ahmet Yurt</name>
-    </author>
-
-  
-    
-    <category term="English" />
-    
-    <category term="Personal" />
-    
-  
-
-  <summary>Hello 👋
-
-When I started my career, I was full of energy and saw endless possibilities ahead. But after 13 years in the same profession, something changed. Now I often wonder: Am I running out of challenges? Has my passion faded? Should I try something completely new? What’s holding me back from growing? Why do I lie awake at night? Am I focusing on the right things? If these questions sound fam...</summary>
 
   </entry>
 
