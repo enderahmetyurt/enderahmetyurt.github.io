@@ -2,7 +2,7 @@
 layout: post
 title: Problems with If Clauses
 date: 2024-12-05 16:51 +0300
-categories: [🇬🇧, Development]
+categories: [Development]
 tags: [ruby]
 image:
   path: /7exynu9pk/IMG_4750.JPG

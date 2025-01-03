@@ -2,7 +2,7 @@
 layout: post
 title: 2024, How Beautiful You Were
 date: 2024-12-24 16:23 +0300
-categories: [🇬🇧, Personal]
+categories: [Personal]
 tags: [life]
 image:
   path: /7exynu9pk/2024-img.jpg

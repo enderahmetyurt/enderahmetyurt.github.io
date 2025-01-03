@@ -1,9 +1,26 @@
 [
   
   {
+    "title": "A Beginner's Guide to Ruby Modules",
+    "url": "/posts/understanding-ruby-modules-a-guide-for-newbies/",
+    "categories": "Development",
+    "tags": "ruby",
+    "date": "2025-01-03 15:49:00 +0300",
+    
+
+
+
+
+
+    
+    "snippet": "Hello 👋I have been writing Ruby since 2010. At the beginning of my Ruby adventure I didn’t have no idea what modules in Ruby is. Ruby is a beginner-friendly programming language but after some time...",
+    "content": "Hello 👋I have been writing Ruby since 2010. At the beginning of my Ruby adventure I didn’t have no idea what modules in Ruby is. Ruby is a beginner-friendly programming language but after some time, you want to have more detailed information about this language. Modules are one of Ruby’s best features. I didn’t have this kind of guide when I was trying to learn Ruby but you will have. This guide will show you what modules are and how to use them.What Is a Ruby Module?A module in Ruby is a collection of methods, constants, and other module or class definitions. Modules are similar to classes, but they cannot be instantiated or inherited from. Instead, modules are used to:      Organize Code: Group related methods and constants together.        Mixin Functionality: Add shared behavior to multiple classes.        Avoid Name Collisions: Create namespaces to prevent conflicts in larger projects.  DefineDefining a module is straightforward. Use the module keyword followed by the module name (written in PascalCase):module Greeting  def say_hello    \"Hello!\"  endendHere, we’ve defined a Greeting module with a say_hello method. But how do we use it?Using Modules as MixinsModules can be included in classes to add methods without duplication. This is called a “mixin.”class Person  include Greetingendperson = Person.newputs person.say_hello  # Outputs: \"Hello!\"By including the Greeting module in the Person class, we make the say_hello method available to instances of Person.If you want the methods to be available as class methods instead of instance methods, use extend:class Robot  extend Greetingendputs Robot.say_hello  # Outputs: \"Hello!\"Creating Namespaces with ModulesModules can be used to group related classes and methods to avoid naming conflicts.module Animals  class Dog    def speak      \"Woof!\"    end  end  class Cat    def speak      \"Meow!\"    end  endend# Access classes inside the moduledog = Animals::Dog.newputs dog.speak  # Outputs: \"Woof!\"Using the Animals::Dog syntax ensures clarity and prevents conflicts with other Dog classes in the codebase.Including vs. ExtendingIt’s essential to understand the difference between include and extend:  include: Adds module methods as instance methods to the class.  extend: Adds module methods as class methods.You can combine both in a single module using self.included:module Utility  def self.included(base)    base.extend(ClassMethods)  end  def instance_method    \"I'm an instance method.\"  end  module ClassMethods    def class_method      \"I'm a class method.\"    end  endendclass Tool  include Utilityendtool = Tool.newputs tool.instance_method       # Outputs: \"I'm an instance method.\"puts Tool.class_method          # Outputs: \"I'm a class method.\"Real World Example: Logging ModuleOkay! Everything looks fine until here but how can we use it in real life. Let’s suppose that you want to add logging functionality to multiple classes.module Logger  def log(message)    puts \"[LOG] #{message}\"  endendclass Order  include Logger  def process    log(\"Processing order...\")  endendclass Payment  include Logger  def charge    log(\"Charging payment...\")  endendorder = Order.neworder.process  # Outputs: [LOG] Processing order...payment = Payment.newpayment.charge  # Outputs: [LOG] Charging payment...ConclusionModules are helpful tools in Ruby. It lets you organize your code better. They make it easier to reuse code and keep it organized. When you learn to use modules well, your Ruby programs will be easier to read and update. Try using modules in your code - you’ll see how useful they can be. Good luck with your coding!❤️"
+  },
+  
+  {
     "title": "2024, How Beautiful You Were",
     "url": "/posts/2024-how-beautiful-you-were/",
-    "categories": "🇬🇧, Personal",
+    "categories": "Personal",
     "tags": "life",
     "date": "2024-12-24 16:23:00 +0300",
     
@@ -20,7 +37,7 @@
   {
     "title": "Before You Go Solo Project: A Developer Confrontation with Themself",
     "url": "/posts/before-you-go-solo-project-a-developer-confrontation-with-themself/",
-    "categories": "🇬🇧, Personal",
+    "categories": "Personal",
     "tags": "experience",
     "date": "2024-12-18 20:29:00 +0300",
     
@@ -37,7 +54,7 @@
   {
     "title": "Preventing Race Conditions in Rails: A Practical Guide",
     "url": "/posts/preventing-race-conditions-in-rails-a-practical-guide/",
-    "categories": "🇬🇧, Development",
+    "categories": "Development",
     "tags": "ruby on rails",
     "date": "2024-12-12 17:15:00 +0300",
     
@@ -54,7 +71,7 @@
   {
     "title": "Problems with If Clauses",
     "url": "/posts/problems-with-if-clauses/",
-    "categories": "🇬🇧, Development",
+    "categories": "Development",
     "tags": "ruby",
     "date": "2024-12-05 16:51:00 +0300",
     
@@ -71,7 +88,7 @@
   {
     "title": "Accessing Values in a Hash with dig in Ruby: Differences and Alternatives",
     "url": "/posts/accessing-values-in-a-hash-with-dig-in-ruby-differences-and-alternatives/",
-    "categories": "🇬🇧, Development",
+    "categories": "Development",
     "tags": "ruby",
     "date": "2024-11-29 16:36:00 +0300",
     
@@ -88,7 +105,7 @@
   {
     "title": "Another World is Also Possible.",
     "url": "/posts/another-world-is-also-possible/",
-    "categories": "🇬🇧, Personal",
+    "categories": "Personal",
     "tags": "experience",
     "date": "2024-11-26 15:11:00 +0300",
     
@@ -105,7 +122,7 @@
   {
     "title": "Euruko 2024 and My Feelings",
     "url": "/posts/euruko-2024-and-my-feelings/",
-    "categories": "🇬🇧, Personal",
+    "categories": "Personal",
     "tags": "conference",
     "date": "2024-09-17 22:11:00 +0300",
     
@@ -122,7 +139,7 @@
   {
     "title": "The First International Conference Experience",
     "url": "/posts/the-first-international-conference-experience/",
-    "categories": "🇬🇧, Personal",
+    "categories": "Personal",
     "tags": "conference",
     "date": "2024-04-30 17:11:00 +0300",
     
@@ -139,7 +156,7 @@
   {
     "title": "New Theme",
     "url": "/posts/new-theme/",
-    "categories": "🇬🇧, Personal",
+    "categories": "Personal",
     "tags": "general",
     "date": "2024-03-14 21:35:00 +0300",
     

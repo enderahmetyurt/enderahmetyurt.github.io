@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>EAY</title>
   <subtitle>The running of a free soul</subtitle>
-  <updated>2024-12-24T16:44:22+03:00</updated>
+  <updated>2025-01-03T16:33:15+03:00</updated>
   <author>
     <name>Ender Ahmet Yurt</name>
     <uri>http://localhost:4000/</uri>
@@ -13,10 +13,36 @@
   <link rel="alternate" type="text/html" hreflang="en"
     href="http://localhost:4000/"/>
   <generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator>
-  <rights> © 2024 Ender Ahmet Yurt </rights>
+  <rights> © 2025 Ender Ahmet Yurt </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>A Beginner's Guide to Ruby Modules</title>
+    <link href="http://localhost:4000/posts/understanding-ruby-modules-a-guide-for-newbies/" rel="alternate" type="text/html" title="A Beginner&amp;apos;s Guide to Ruby Modules" />
+    <published>2025-01-03T15:49:00+03:00</published>
+  
+    <updated>2025-01-03T15:49:00+03:00</updated>
+  
+    <id>http://localhost:4000/posts/understanding-ruby-modules-a-guide-for-newbies/</id>
+    <content src="http://localhost:4000/posts/understanding-ruby-modules-a-guide-for-newbies/" />
+    <author>
+      <name>Ender Ahmet Yurt</name>
+    </author>
+
+  
+    
+    <category term="Development" />
+    
+  
+
+  <summary>Hello 👋
+
+I have been writing Ruby since 2010. At the beginning of my Ruby adventure I didn’t have no idea what modules in Ruby is. Ruby is a beginner-friendly programming language but after some time, you want to have more detailed information about this language. Modules are one of Ruby’s best features. I didn’t have this kind of guide when I was trying to learn Ruby but you will have. This gu...</summary>
+
+  </entry>
 
   
   <entry>
@@ -33,8 +59,6 @@
     </author>
 
   
-    
-    <category term="🇬🇧" />
     
     <category term="Personal" />
     
@@ -54,7 +78,7 @@ If you haven’t read my writings (Turkish) from previous years, y...</summary>
     <link href="http://localhost:4000/posts/before-you-go-solo-project-a-developer-confrontation-with-themself/" rel="alternate" type="text/html" title="Before You Go Solo Project: A Developer Confrontation with Themself" />
     <published>2024-12-18T20:29:00+03:00</published>
   
-    <updated>2024-12-23T17:11:49+03:00</updated>
+    <updated>2024-12-24T16:48:38+03:00</updated>
   
     <id>http://localhost:4000/posts/before-you-go-solo-project-a-developer-confrontation-with-themself/</id>
     <content src="http://localhost:4000/posts/before-you-go-solo-project-a-developer-confrontation-with-themself/" />
@@ -63,8 +87,6 @@ If you haven’t read my writings (Turkish) from previous years, y...</summary>
     </author>
 
   
-    
-    <category term="🇬🇧" />
     
     <category term="Personal" />
     
@@ -85,7 +107,7 @@ Before we start, I want to mention that I’ve made other videos about the mista
     <link href="http://localhost:4000/posts/preventing-race-conditions-in-rails-a-practical-guide/" rel="alternate" type="text/html" title="Preventing Race Conditions in Rails: A Practical Guide" />
     <published>2024-12-12T17:15:00+03:00</published>
   
-    <updated>2024-12-23T17:11:49+03:00</updated>
+    <updated>2024-12-24T16:48:38+03:00</updated>
   
     <id>http://localhost:4000/posts/preventing-race-conditions-in-rails-a-practical-guide/</id>
     <content src="http://localhost:4000/posts/preventing-race-conditions-in-rails-a-practical-guide/" />
@@ -94,8 +116,6 @@ Before we start, I want to mention that I’ve made other videos about the mista
     </author>
 
   
-    
-    <category term="🇬🇧" />
     
     <category term="Development" />
     
@@ -115,7 +135,7 @@ Common Scenarios of Race Cond...</summary>
     <link href="http://localhost:4000/posts/problems-with-if-clauses/" rel="alternate" type="text/html" title="Problems with If Clauses" />
     <published>2024-12-05T16:51:00+03:00</published>
   
-    <updated>2024-12-23T17:11:49+03:00</updated>
+    <updated>2024-12-24T16:48:38+03:00</updated>
   
     <id>http://localhost:4000/posts/problems-with-if-clauses/</id>
     <content src="http://localhost:4000/posts/problems-with-if-clauses/" />
@@ -124,8 +144,6 @@ Common Scenarios of Race Cond...</summary>
     </author>
 
   
-    
-    <category term="🇬🇧" />
     
     <category term="Development" />
     
@@ -136,38 +154,6 @@ Common Scenarios of Race Cond...</summary>
 When I started learning Ruby programming, I loved using if statements because they were easy to understand and could be used everywhere. However, as I built bigger projects, I noticed a problem: my code became messy and hard to understand. I had too many nested if statements, and my logic was scattered all over the place.
 
 I learned an important lesson: writing good if statements isn’t...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Accessing Values in a Hash with dig in Ruby: Differences and Alternatives</title>
-    <link href="http://localhost:4000/posts/accessing-values-in-a-hash-with-dig-in-ruby-differences-and-alternatives/" rel="alternate" type="text/html" title="Accessing Values in a Hash with dig in Ruby: Differences and Alternatives" />
-    <published>2024-11-29T16:36:00+03:00</published>
-  
-    <updated>2024-12-23T17:11:49+03:00</updated>
-  
-    <id>http://localhost:4000/posts/accessing-values-in-a-hash-with-dig-in-ruby-differences-and-alternatives/</id>
-    <content src="http://localhost:4000/posts/accessing-values-in-a-hash-with-dig-in-ruby-differences-and-alternatives/" />
-    <author>
-      <name>Ender Ahmet Yurt</name>
-    </author>
-
-  
-    
-    <category term="🇬🇧" />
-    
-    <category term="Development" />
-    
-  
-
-  <summary>Hello 👋
-
-Ruby provides multiple ways to access Hash values. The dig method offers a safe approach for retrieving values from nested Hash or Array structures. Let’s explore how dig works, along with its alternatives and key differences:
-
-Using dig
-
-The dig method lets you traverse nested structures by specifying a path of keys. Rather than raising an error when a key doesn’t exist, it simply ret...</summary>
 
   </entry>
 
