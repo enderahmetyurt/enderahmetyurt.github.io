@@ -17,13 +17,13 @@ order: 1
 </p>
 
 <p class="message">
-  Except for this blog, I have mostly written in Turkish about life and my experiences on my <a href="https://medium.com/@eayurt">Medium</a> blog. I will continue writing there.
-</p>
-
-<p class="message">
   I also create videos about my life, as well as educational videos on my <a href="https://www.youtube.com/@eayurt">Youtube Channel</a>
 </p>
 
 <p class="message">
-  <s>I have a side project (which I hope to turn into a startup later 🙏). It's called  <a href="https://www.podiscover.me/">Podiscover</a> and it's a social media platform for podcast listeners. If you're interested in Podiscover, feel free to contact me via email or through my social media. Let's meet and discuss the podcast industry!</s> [It closed.]
+  <s>Except for this blog, I have mostly written in Turkish about life and my experiences on my <a href="https://medium.com/@eayurt">Medium</a> blog. I will continue writing there.</s>[I removed some posts from Medium to here.]
+</p>
+
+<p class="message">
+  I have a side project (which I hope to turn into a startup later 🙏). It's called  <a href="https://www.podiscover.me/">Podiscover</a> and it's a social media platform for podcast listeners. If you're interested in Podiscover, feel free to contact me via email or through my social media. Let's meet and discuss the podcast industry!</s> [It closed.]
 </p>
