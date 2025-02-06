@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>EAY</title>
   <subtitle>The running of a free soul</subtitle>
-  <updated>2025-02-05T17:28:55+03:00</updated>
+  <updated>2025-02-06T17:11:12+03:00</updated>
   <author>
     <name>Ender Ahmet Yurt</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,32 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Secure Your Secrets with Rails Credentials</title>
+    <link href="http://localhost:4000/posts/secure-your-secrets-with-rails-credentials/" rel="alternate" type="text/html" title="Secure Your Secrets with Rails Credentials" />
+    <published>2025-02-06T16:51:00+03:00</published>
+  
+    <updated>2025-02-06T16:51:00+03:00</updated>
+  
+    <id>http://localhost:4000/posts/secure-your-secrets-with-rails-credentials/</id>
+    <content src="http://localhost:4000/posts/secure-your-secrets-with-rails-credentials/" />
+    <author>
+      <name>Ender Ahmet Yurt</name>
+    </author>
+
+  
+    
+    <category term="Development" />
+    
+  
+
+  <summary>Hello 👋
+
+Whether you are a junior or senior developer, you know that keeping secrets out of your repository is crucial. From API keys to database passwords, sensitive information should never be hardcoded into your application. Traditionally, developers have used environment variables, the dotenv gem, or YAML-based configurations like secrets.yml to manage secrets. While these methods work, the...</summary>
+
+  </entry>
 
   
   <entry>
@@ -123,35 +149,6 @@ I have been writing Ruby since 2010. At the beginning of my Ruby adventure I did
 It’s that time of year again - time for looking back and thinking about what happened this year. I’m sitting at my computer to write about my year. There’s a dog barking outside, and though it’s a bit distracting, I’ll manage. I’ve got my headphones on with some nice background music playing, so let’s get started, Ender.
 
 If you haven’t read my writings (Turkish) from previous years, y...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Before You Go Solo Project: A Developer Confrontation with Themself</title>
-    <link href="http://localhost:4000/posts/before-you-go-solo-project-a-developer-confrontation-with-themself/" rel="alternate" type="text/html" title="Before You Go Solo Project: A Developer Confrontation with Themself" />
-    <published>2024-12-18T20:29:00+03:00</published>
-  
-    <updated>2025-01-03T16:54:27+03:00</updated>
-  
-    <id>http://localhost:4000/posts/before-you-go-solo-project-a-developer-confrontation-with-themself/</id>
-    <content src="http://localhost:4000/posts/before-you-go-solo-project-a-developer-confrontation-with-themself/" />
-    <author>
-      <name>Ender Ahmet Yurt</name>
-    </author>
-
-  
-    
-    <category term="Personal" />
-    
-  
-
-  <summary>Hello 👋
-
-Intro
-Welcome to another post where I’ll share what I learned from my Podiscover project. We’ll go through each lesson in detail to give you a good understanding of my journey.
-
-Before we start, I want to mention that I’ve made other videos about the mistakes I made during this project. If you want to learn more about the challenges I faced, you can find these videos here. The videos a...</summary>
 
   </entry>
 
