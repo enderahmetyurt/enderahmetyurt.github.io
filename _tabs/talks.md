@@ -6,10 +6,11 @@ order: 2
 
 <h2>Talks</h2>
 <ul>
+  <li><i>2025 Feb</i> - Ordu Bilişim Topluluğu - <a href="https://www.youtube.com/watch?v=VCiKAKKWW7w&t=537s&ab_channel=OrduBili%C5%9FimToplulu%C4%9Fu">Motoru Çalıştır (Online)</a></li>
   <li><i>2024 Nov</i> -  Google Developers Group Samsun - Gemini and Ruby on Rails</li>
   <li><i>2024 May</i> -  Rails Girls Ankara - Start to the Engine</li>
   <li><i>2024 May</i> -  19 Mayıs Üniversitesi IEEE Kulübü Kariyer Günleri - 12 Sene 12 Başlık</li>
-  <li><i>2023 December</i> -  Özgür Yazılım Topluluğu <a href="https://www.youtube.com/watch?v=c486F7vwdq4">Haaave you met Ruby on Rails (Online)</a></li>
+  <li><i>2023 December</i> -  Özgür Yazılım Topluluğu - <a href="https://www.youtube.com/watch?v=c486F7vwdq4">Haaave you met Ruby on Rails (Online)</a></li>
   <li><i>2020 June</i> - ACM Hacettepe - <a href="https://www.youtube.com/watch?v=9p74XLrshEA" target="_blank">Pandemide Yazılımcı Olmak (Online)</a></li>
   <li><i>2018 November</i> - Rails Girls Istanbul - Co-organizer</li>
   <li><i>2018 April</i> - İstanbul AltınBaş Üniversitesi - Ruby on Rails 101</li>
@@ -25,6 +26,7 @@ order: 2
 
 <h2>Podcasts/Videocasts</h2>
 <ul>
+  <li><i>2025 February </i><a href="https://www.youtube.com/watch?v=yZNiIHAro-E&ab_channel=MehmetINCE" target="_blank"> Code & Cardio Bölüm 1 | Ender Ahmet Yurt ! Spor Yapan Yazılımcılar</a></li>
   <li><i>2024 January </i><a href="https://www.youtube.com/watch?v=-xK5T7bUM0k" target="_blank"> Ürün Geliştiricisi | PeaksOnTheBack #1</a></li>
   <li><i>2022 November </i><a href="https://www.youtube.com/watch?v=rgdXnq1fMSw" target="_blank"> Çay Kahve İnsan</a></li>
   <li><i>2022 October </i><a href="https://open.spotify.com/episode/1JgWKjg4Izn9neaYtzS6rO?si=6841930a2b3942c1" target="_blank"> Kırılma Noktası</a></li>
@@ -37,7 +39,7 @@ order: 2
 
 <h2>Bootcamps</h2>
 <ul>
-<li><i>2024 May - 2024 May</i><a href="https://www.patika.dev/en/bootcamp/iwallet-turkiye-ruby-on-rails-bootcamp" target="_blank"> - PatikaDev Ruby on Rails Bootcamp - </a>Ruby on Rails Tutor (40 hours)</li>
+  <li><i>2024 May - 2024 May</i><a href="https://www.patika.dev/en/bootcamp/iwallet-turkiye-ruby-on-rails-bootcamp" target="_blank"> - PatikaDev Ruby on Rails Bootcamp - </a>Ruby on Rails Tutor (40 hours)</li>
   <li><i>2021 September - 2021 October</i><a href="https://www.patika.dev/en/bootcamp/protein-ruby-on-rails-bootcamp" target="_blank"> - PatikaDev Ruby on Rails Bootcamp - </a>Ruby on Rails Tutor (70 hours)</li>
   <li><i>2020 September - 2020 November</i><a href="https://www.kodluyoruz.org/bootcamp/istanbul-ruby-on-rails-bootcamp/" target="_blank"> - Kodluyoruzorg Ruby on Rails Bootcamp - </a>Ruby on Rails Tutor (70 hours)</li>
   <li><i>2019 July</i> - Özgür Yazılım Kampı - Ruby on Rails Sınıfı Eğitmeni (4 Days)</li>
