@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>EAY</title>
   <subtitle>The running of a free soul</subtitle>
-  <updated>2025-02-27T20:58:27+03:00</updated>
+  <updated>2025-03-05T16:32:46+03:00</updated>
   <author>
     <name>Ender Ahmet Yurt</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,34 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Adding SessionTestHelper to Existing Rails Project</title>
+    <link href="http://localhost:4000/posts/adding-sessiontesthelper-to-existing-rails-project/" rel="alternate" type="text/html" title="Adding SessionTestHelper to Existing Rails Project" />
+    <published>2025-03-05T15:51:00+03:00</published>
+  
+    <updated>2025-03-05T15:51:00+03:00</updated>
+  
+    <id>http://localhost:4000/posts/adding-sessiontesthelper-to-existing-rails-project/</id>
+    <content src="http://localhost:4000/posts/adding-sessiontesthelper-to-existing-rails-project/" />
+    <author>
+      <name>Ender Ahmet Yurt</name>
+    </author>
+
+  
+    
+    <category term="Development" />
+    
+  
+
+  <summary>Hello 👋
+
+With Rails 8, built-in authentication has been introduced. Although it seems like a small and simple step, for a developer like me who uses Devise in every project, even for basic authentication, it is a significant initiative. I am not going to talk about the Rails Authentication Generator. Instead, I’d like to focus on a small update related to testing in it.
+
+I was very happy to use...</summary>
+
+  </entry>
 
   
   <entry>
@@ -121,34 +149,6 @@ As a Ruby developer, testing is an integral part of the software development lif
   <summary>Hello 👋
 
 I have been writing Ruby since 2010. At the beginning of my Ruby adventure I didn’t have no idea what modules in Ruby is. Ruby is a beginner-friendly programming language but after some time, you want to have more detailed information about this language. Modules are one of Ruby’s best features. I didn’t have this kind of guide when I was trying to learn Ruby but you will have. This gu...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>2024, How Beautiful You Were</title>
-    <link href="http://localhost:4000/posts/2024-how-beautiful-you-were/" rel="alternate" type="text/html" title="2024, How Beautiful You Were" />
-    <published>2024-12-24T16:23:00+03:00</published>
-  
-    <updated>2025-01-03T16:54:27+03:00</updated>
-  
-    <id>http://localhost:4000/posts/2024-how-beautiful-you-were/</id>
-    <content src="http://localhost:4000/posts/2024-how-beautiful-you-were/" />
-    <author>
-      <name>Ender Ahmet Yurt</name>
-    </author>
-
-  
-    
-    <category term="Personal" />
-    
-  
-
-  <summary>Hello 👋
-
-It’s that time of year again - time for looking back and thinking about what happened this year. I’m sitting at my computer to write about my year. There’s a dog barking outside, and though it’s a bit distracting, I’ll manage. I’ve got my headphones on with some nice background music playing, so let’s get started, Ender.
-
-If you haven’t read my writings (Turkish) from previous years, y...</summary>
 
   </entry>
 
