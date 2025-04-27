@@ -9,15 +9,19 @@ order: 1
 </p>
 
 <p class="message">
-  I enjoy developing web applications, especially focusing on contributing to various open-source projects on GitHub. Since 2014, I have been leading a local community called Ruby Turkey. For more information about me, you can visit my <a href="https://www.linkedin.com/in/enderahmetyurt/">Linkedin</a> profile, and you can also follow me on <a href="https://github.com/enderahmetyurt">Github</a>, <a href="https://bsky.app/profile/enderahmetyurt.com">BlueSky</a>, and <a href="https://twitter.com/eayurt">Twitter</a>
+  I enjoy developing web applications, especially focusing on contributing to various open-source projects on GitHub. Since 2014, I have been leading a local community called Ruby Turkey. For more information about me, you can visit my <a href="https://www.linkedin.com/in/enderahmetyurt/">Linkedin</a> profile, and you can also follow me on <a href="https://github.com/enderahmetyurt">Github</a>, <a href="https://bsky.app/profile/enderahmetyurt.com">BlueSky</a>
 </p>
 
 <p class="message">
-  I have been producing a podcast called <a href="https://uretimbandi.com/podcasts/teknik/">Üretim Bandı:Teknik</a>. It focuses on technology and software development. While the majority of the episodes are in Turkish, I have also recorded episodes in English.
+  I’m creating a podcast called <a href="https://www.enderin.co/">Enderinko</a>. In this podcast, I talk about software development, books, movies, and the big and small questions of life. It’s a new audio journey where coding meets storytelling, curiosity, and everyday reflections.
 </p>
 
 <p class="message">
   I also create videos about my life, as well as educational videos on my <a href="https://www.youtube.com/@eayurt">Youtube Channel</a>
+</p>
+
+<p class="message">
+  <s>I have been producing a podcast called <a href="https://uretimbandi.com/podcasts/teknik/">Üretim Bandı:Teknik</a>. It focuses on technology and software development. While the majority of the episodes are in Turkish, I have also recorded episodes in English.</s>
 </p>
 
 <p class="message">
