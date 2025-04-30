@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>EAY</title>
   <subtitle>The running of a free soul</subtitle>
-  <updated>2025-04-27T14:38:46+03:00</updated>
+  <updated>2025-04-30T16:16:04+03:00</updated>
   <author>
     <name>Ender Ahmet Yurt</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,32 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>MCP &amp; Claude: From Weather Bots to Email Validation</title>
+    <link href="http://localhost:4000/posts/mcp-and-claude-from-weather-bots-to-email-validation/" rel="alternate" type="text/html" title="MCP &amp;amp; Claude: From Weather Bots to Email Validation" />
+    <published>2025-04-30T16:00:00+03:00</published>
+  
+    <updated>2025-04-30T16:00:00+03:00</updated>
+  
+    <id>http://localhost:4000/posts/mcp-and-claude-from-weather-bots-to-email-validation/</id>
+    <content src="http://localhost:4000/posts/mcp-and-claude-from-weather-bots-to-email-validation/" />
+    <author>
+      <name>Ender Ahmet Yurt</name>
+    </author>
+
+  
+    
+    <category term="Development" />
+    
+  
+
+  <summary>Hello 👋
+
+As everyone working with AI knows, MCP has been a popular topic lately. I wanted to learn about this topic and create a few applications. I was looking into it in my spare time after work, but hadn’t made much progress. The innovation week we have at the company after each cycle was an opportunity for me. During this innovation week, I set out to learn about MCP and develop at least on...</summary>
+
+  </entry>
 
   
   <entry>
@@ -123,32 +149,6 @@ Oldum olası konuşmayı seven biriyim. Her ne kadar otuz beşlerimden sonra bu 
   <summary>Hello 👋
 
 As a Ruby developer, testing is an integral part of the software development lifecycle. Ruby’s vibrant ecosystem provides two prominent testing frameworks: RSpec and MiniTest. While both serve the same ultimate goal of ensuring your code works as expected, their philosophies and approaches differ significantly. Let’s explore these frameworks, compare their features, and discuss how to ...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>A Beginner's Guide to Ruby Modules</title>
-    <link href="http://localhost:4000/posts/understanding-ruby-modules-a-guide-for-newbies/" rel="alternate" type="text/html" title="A Beginner&amp;apos;s Guide to Ruby Modules" />
-    <published>2025-01-03T15:49:00+03:00</published>
-  
-    <updated>2025-01-03T15:49:00+03:00</updated>
-  
-    <id>http://localhost:4000/posts/understanding-ruby-modules-a-guide-for-newbies/</id>
-    <content src="http://localhost:4000/posts/understanding-ruby-modules-a-guide-for-newbies/" />
-    <author>
-      <name>Ender Ahmet Yurt</name>
-    </author>
-
-  
-    
-    <category term="Development" />
-    
-  
-
-  <summary>Hello 👋
-
-I have been writing Ruby since 2010. At the beginning of my Ruby adventure I didn’t have no idea what modules in Ruby is. Ruby is a beginner-friendly programming language but after some time, you want to have more detailed information about this language. Modules are one of Ruby’s best features. I didn’t have this kind of guide when I was trying to learn Ruby but you will have. This gu...</summary>
 
   </entry>
 
