@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>EAY</title>
   <subtitle>The running of a free soul</subtitle>
-  <updated>2025-04-30T16:16:04+03:00</updated>
+  <updated>2025-06-22T18:38:15+03:00</updated>
   <author>
     <name>Ender Ahmet Yurt</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,34 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Ruby’de Abstract Factory Tasarım Deseni</title>
+    <link href="http://localhost:4000/posts/rubyde-abstract-factory-tasarim-deseni/" rel="alternate" type="text/html" title="Ruby’de Abstract Factory Tasarım Deseni" />
+    <published>2025-06-22T18:18:00+03:00</published>
+  
+    <updated>2025-06-22T18:18:00+03:00</updated>
+  
+    <id>http://localhost:4000/posts/rubyde-abstract-factory-tasarim-deseni/</id>
+    <content src="http://localhost:4000/posts/rubyde-abstract-factory-tasarim-deseni/" />
+    <author>
+      <name>Ender Ahmet Yurt</name>
+    </author>
+
+  
+    
+    <category term="Development" />
+    
+  
+
+  <summary>Merhaba 👋
+
+Uygulamalar büyüdükçe, birbiriyle uyumlu şekilde çalışması gereken nesne gruplarıyla karşılaşırız. Farklı veritabanı motorlarına göre konfigürasyon nesneleri, çoklu tema desteği olan kullanıcı arayüzleri, ya da bölgelere özel ödeme sistemleri… Bu gibi durumlarda yalnızca bir nesneyi değil, bir ailenin tüm üyelerini üretmemiz gerekir — hem de birbirleriyle tutarlı bir şekilde.
+
+Abstra...</summary>
+
+  </entry>
 
   
   <entry>
@@ -123,32 +151,6 @@ Whether you are a junior or senior developer, you know that keeping secrets out 
 Bugün sizlere biraz kendi podcasterlık ve biri on sene diğeri altı seneyi aşkındır yaptığım podcast’lerin serüvenlerinden bahsetmek istiyorum.
 
 Oldum olası konuşmayı seven biriyim. Her ne kadar otuz beşlerimden sonra bu özelliğimden biraz uzaklaşsam da hala içimde konuşma isteği yanıp tutuşur. Süper bilgili bir adam olduğumu düşünmüyorum ancak dünya genelinin baya üstünde olduğumu dü...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Endless Battle: RSpec vs. MiniTest</title>
-    <link href="http://localhost:4000/posts/endless-battle-rspec-vs-minitest/" rel="alternate" type="text/html" title="Endless Battle: RSpec vs. MiniTest" />
-    <published>2025-01-10T15:13:00+03:00</published>
-  
-    <updated>2025-01-10T15:13:00+03:00</updated>
-  
-    <id>http://localhost:4000/posts/endless-battle-rspec-vs-minitest/</id>
-    <content src="http://localhost:4000/posts/endless-battle-rspec-vs-minitest/" />
-    <author>
-      <name>Ender Ahmet Yurt</name>
-    </author>
-
-  
-    
-    <category term="Development" />
-    
-  
-
-  <summary>Hello 👋
-
-As a Ruby developer, testing is an integral part of the software development lifecycle. Ruby’s vibrant ecosystem provides two prominent testing frameworks: RSpec and MiniTest. While both serve the same ultimate goal of ensuring your code works as expected, their philosophies and approaches differ significantly. Let’s explore these frameworks, compare their features, and discuss how to ...</summary>
 
   </entry>
 
