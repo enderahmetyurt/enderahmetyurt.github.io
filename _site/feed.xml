@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>EAY</title>
   <subtitle>The running of a free soul</subtitle>
-  <updated>2025-06-22T18:38:15+03:00</updated>
+  <updated>2025-07-15T09:00:57+03:00</updated>
   <author>
     <name>Ender Ahmet Yurt</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,32 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Mid-Level Geliştirici için Yol Haritası</title>
+    <link href="http://localhost:4000/posts/mid-level-geli%C5%9Ftirici-i%C3%A7in-yol-haritas%C4%B1/" rel="alternate" type="text/html" title="Mid-Level Geliştirici için Yol Haritası" />
+    <published>2025-07-15T08:50:00+03:00</published>
+  
+    <updated>2025-07-15T08:50:00+03:00</updated>
+  
+    <id>http://localhost:4000/posts/mid-level-geli%C5%9Ftirici-i%C3%A7in-yol-haritas%C4%B1/</id>
+    <content src="http://localhost:4000/posts/mid-level-geli%C5%9Ftirici-i%C3%A7in-yol-haritas%C4%B1/" />
+    <author>
+      <name>Ender Ahmet Yurt</name>
+    </author>
+
+  
+    
+    <category term="Development" />
+    
+  
+
+  <summary>Merhaba 👋
+
+Enderinko podcast’inde yayınladığım Yazılımda Kariyer Rotaları: Junior’lıktan Liderliğe Giden Yolculuk serisinde Mid-Level geliştirici olmaktan bahsetmiştim. Bölümü henüz dinlemediysen buradan dinleyebilirsin. Bu bölümde Mid-Level aşamasındaki bir geliştiricinin sorumlulukları, senior olmak için neler yapaması gerektiği ve daha fazlasına değinmiştim. Buradaki bahsettiklerimden yola ç...</summary>
+
+  </entry>
 
   
   <entry>
@@ -123,34 +149,6 @@ I was very happy to use...</summary>
   <summary>Hello 👋
 
 Whether you are a junior or senior developer, you know that keeping secrets out of your repository is crucial. From API keys to database passwords, sensitive information should never be hardcoded into your application. Traditionally, developers have used environment variables, the dotenv gem, or YAML-based configurations like secrets.yml to manage secrets. While these methods work, the...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>10 Senelik Bir Podcaster Meselesi</title>
-    <link href="http://localhost:4000/posts/10-senelik-bir-podcaster-meselesi/" rel="alternate" type="text/html" title="10 Senelik Bir Podcaster Meselesi" />
-    <published>2025-01-10T20:49:00+03:00</published>
-  
-    <updated>2025-01-10T20:49:00+03:00</updated>
-  
-    <id>http://localhost:4000/posts/10-senelik-bir-podcaster-meselesi/</id>
-    <content src="http://localhost:4000/posts/10-senelik-bir-podcaster-meselesi/" />
-    <author>
-      <name>Ender Ahmet Yurt</name>
-    </author>
-
-  
-    
-    <category term="Personal" />
-    
-  
-
-  <summary>Merhaba 👋
-
-Bugün sizlere biraz kendi podcasterlık ve biri on sene diğeri altı seneyi aşkındır yaptığım podcast’lerin serüvenlerinden bahsetmek istiyorum.
-
-Oldum olası konuşmayı seven biriyim. Her ne kadar otuz beşlerimden sonra bu özelliğimden biraz uzaklaşsam da hala içimde konuşma isteği yanıp tutuşur. Süper bilgili bir adam olduğumu düşünmüyorum ancak dünya genelinin baya üstünde olduğumu dü...</summary>
 
   </entry>
 
