@@ -30,25 +30,25 @@
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.3.4" />
-<meta property="og:title" content="Preventing Race Conditions in Rails: A Practical Guide" />
+<meta property="og:title" content="Bang Methods in Ruby: When to Use Them and When to Avoid Them" />
 <meta property="og:locale" content="en" />
 <meta name="description" content="Hello 👋" />
 <meta property="og:description" content="Hello 👋" />
-<link rel="canonical" href="http://localhost:4000/posts/preventing-race-conditions-in-rails-a-practical-guide/" />
-<meta property="og:url" content="http://localhost:4000/posts/preventing-race-conditions-in-rails-a-practical-guide/" />
+<link rel="canonical" href="http://localhost:4000/posts/bang-methods-in-ruby-when-to-use-them-and-when-to-avoid-them/" />
+<meta property="og:url" content="http://localhost:4000/posts/bang-methods-in-ruby-when-to-use-them-and-when-to-avoid-them/" />
 <meta property="og:site_name" content="EAY" />
-<meta property="og:image" content="https://ik.imagekit.io/7exynu9pk/IMG_4577.JPG" />
+<meta property="og:image" content="https://images.unsplash.com/photo-1574697832320-06eeee003abc?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-12-12T17:15:00+03:00" />
+<meta property="article:published_time" content="2025-08-01T16:27:00+03:00" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta property="twitter:image" content="https://ik.imagekit.io/7exynu9pk/IMG_4577.JPG" />
-<meta property="twitter:title" content="Preventing Race Conditions in Rails: A Practical Guide" />
+<meta property="twitter:image" content="https://images.unsplash.com/photo-1574697832320-06eeee003abc?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==" />
+<meta property="twitter:title" content="Bang Methods in Ruby: When to Use Them and When to Avoid Them" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-01-03T16:54:27+03:00","datePublished":"2024-12-12T17:15:00+03:00","description":"Hello 👋","headline":"Preventing Race Conditions in Rails: A Practical Guide","image":"https://ik.imagekit.io/7exynu9pk/IMG_4577.JPG","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/preventing-race-conditions-in-rails-a-practical-guide/"},"url":"http://localhost:4000/posts/preventing-race-conditions-in-rails-a-practical-guide/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-01T16:27:00+03:00","datePublished":"2025-08-01T16:27:00+03:00","description":"Hello 👋","headline":"Bang Methods in Ruby: When to Use Them and When to Avoid Them","image":"https://images.unsplash.com/photo-1574697832320-06eeee003abc?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/bang-methods-in-ruby-when-to-use-them-and-when-to-avoid-them/"},"url":"http://localhost:4000/posts/bang-methods-in-ruby-when-to-use-them-and-when-to-avoid-them/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>Preventing Race Conditions in Rails: A Practical Guide | EAY
+  <title>Bang Methods in Ruby: When to Use Them and When to Avoid Them | EAY
   </title>
 
   <!--
@@ -328,7 +328,7 @@
         
           
             
-              <span>Preventing Race Conditions in Rails: A Practical Guide</span>
+              <span>Bang Methods in Ruby: When to Use Them and When to Avoid Them</span>
             
 
           
@@ -548,6 +548,94 @@
 
       
     
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
 
     
   
@@ -563,72 +651,6 @@
       
         
         
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
       
 
       
@@ -686,7 +708,7 @@
 
 <article class="px-1">
   <header>
-    <h1 data-toc-skip>Preventing Race Conditions in Rails: A Practical Guide</h1>
+    <h1 data-toc-skip>Bang Methods in Ruby: When to Use Them and When to Avoid Them</h1>
     
 
     <div class="post-meta text-muted">
@@ -703,41 +725,18 @@
 
 <time
   
-  data-ts="1734012900"
+  data-ts="1754054820"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
   
 >
-  Dec 12, 2024
+  Aug  1, 2025
 </time>
 
       </span>
 
       <!-- lastmod date -->
-      
-        <span>
-          Updated
-          <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1735912467"
-  data-df="ll"
-  
-    data-bs-toggle="tooltip" data-bs-placement="bottom"
-  
->
-  Jan  3, 2025
-</time>
-
-        </span>
       
 
       
@@ -748,7 +747,7 @@
         
 
         <div class="mt-3 mb-3">
-          <a href="https://ik.imagekit.io/7exynu9pk/IMG_4577.JPG" class="popup img-link preview-img shimmer"><img src="https://ik.imagekit.io/7exynu9pk/IMG_4577.JPG"  alt="Preview Image" width="1200" height="630"  loading="lazy"></a></div>
+          <a href="https://images.unsplash.com/photo-1574697832320-06eeee003abc?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="popup img-link preview-img shimmer"><img src="https://images.unsplash.com/photo-1574697832320-06eeee003abc?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  alt="Preview Image" width="1200" height="630"  loading="lazy"></a></div>
       
 
       <div class="d-flex justify-content-between">
@@ -790,9 +789,9 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="532 words"
+  title="1057 words"
 >
-  <em>2 min</em> read</span>
+  <em>5 min</em> read</span>
 
         </div>
       </div>
@@ -802,45 +801,10 @@
   <div class="content">
     <p>Hello 👋</p>
 
-<p>A race condition happens when two or more parts of a program try to change the same information at the same time. Think of it like two people trying to edit the same document simultaneously - it can lead to mistakes and unexpected results. This often happens in programs that run multiple tasks at once, where you can’t predict which task will finish first.</p>
+<p>Ruby’s bang methods (those ending with <code class="language-plaintext highlighter-rouge">!</code>) are one of the language’s most distinctive features, yet they’re often misunderstood by developers at all levels. These methods can make your code more expressive and efficient, but they can also introduce subtle bugs if used carelessly. Let’s explore what bang methods really are, when to use them, and the conventions that will make you a better Ruby developer.</p>
 
-<h2 id="common-scenarios-of-race-conditions-in-rails"><span class="me-2">Common Scenarios of Race Conditions in Rails</span><a href="#common-scenarios-of-race-conditions-in-rails" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-
-<h3 id="1-updating-the-same-record"><span class="me-2">1. Updating the Same Record</span><a href="#1-updating-the-same-record" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-<p>When multiple requests try to update the same database record at the same time, the last operation may overwrite the others without accounting for changes made by other operations.</p>
-
-<div class="language-ruby highlighter-rouge"><div class="code-header">
-        <span data-label-text="Ruby"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-</pre></td><td class="rouge-code"><pre><span class="c1"># Two requests fetching and updating the same record</span>
-<span class="n">user</span> <span class="o">=</span> <span class="no">User</span><span class="p">.</span><span class="nf">find</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
-<span class="n">user</span><span class="p">.</span><span class="nf">balance</span> <span class="o">+=</span> <span class="mi">100</span>
-<span class="n">user</span><span class="p">.</span><span class="nf">save</span>
-</pre></td></tr></tbody></table></code></div></div>
-
-<p>If another process modifies the <code class="language-plaintext highlighter-rouge">balance</code> simultaneously, the final value may be incorrect.</p>
-
-<h3 id="2-concurrent-record-creation"><span class="me-2">2. Concurrent Record Creation</span><a href="#2-concurrent-record-creation" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-<p>If two or more processes attempt to create records with the same unique constraints (e.g., email or username), it might lead to duplication or errors.</p>
-
-<div class="language-ruby highlighter-rouge"><div class="code-header">
-        <span data-label-text="Ruby"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-</pre></td><td class="rouge-code"><pre><span class="c1"># Concurrent requests creating users with the same email</span>
-<span class="no">User</span><span class="p">.</span><span class="nf">create</span><span class="p">(</span><span class="ss">email: </span><span class="s2">"test@example.com"</span><span class="p">)</span>
-</pre></td></tr></tbody></table></code></div></div>
-
-<h3 id="3-background-jobs-and-web-requests"><span class="me-2">3. Background Jobs and Web Requests</span><a href="#3-background-jobs-and-web-requests" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-<p>A background job and a web request might access and modify the same resource, causing inconsistencies.</p>
-
-<h2 id="how-to-prevent-race-conditions-in-rails"><span class="me-2">How to Prevent Race Conditions in Rails</span><a href="#how-to-prevent-race-conditions-in-rails" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-
-<h3 id="1-database-transactions"><span class="me-2">1. Database Transactions</span><a href="#1-database-transactions" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-<p>Use ActiveRecord transactions to group related operations into an atomic unit. If any operation in the transaction fails, the entire transaction is rolled back.</p>
+<h2 id="what-are-bang-methods"><span class="me-2">What Are Bang Methods?</span><a href="#what-are-bang-methods" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<p>Bang methods are Ruby methods that end with an exclamation mark (<code class="language-plaintext highlighter-rouge">!</code>). Contrary to popular belief, the exclamation mark isn’t a magical operator that makes methods destructive—it’s simply part of the method name. The bang is a naming convention that signals something important about the method’s behavior.\</p>
 
 <div class="language-ruby highlighter-rouge"><div class="code-header">
         <span data-label-text="Ruby"><i class="fas fa-code fa-fw small"></i></span>
@@ -849,86 +813,18 @@
 3
 4
 5
-</pre></td><td class="rouge-code"><pre><span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Base</span><span class="p">.</span><span class="nf">transaction</span> <span class="k">do</span>
-  <span class="n">user</span> <span class="o">=</span> <span class="no">User</span><span class="p">.</span><span class="nf">find</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
-  <span class="n">user</span><span class="p">.</span><span class="nf">balance</span> <span class="o">+=</span> <span class="mi">100</span>
-  <span class="n">user</span><span class="p">.</span><span class="nf">save!</span>
-<span class="k">end</span>
+</pre></td><td class="rouge-code"><pre><span class="c1"># These are completely different methods</span>
+<span class="n">string</span> <span class="o">=</span> <span class="s2">"hello world"</span>
+<span class="n">string</span><span class="p">.</span><span class="nf">upcase</span>    <span class="c1"># =&gt; "HELLO WORLD" (returns new string)</span>
+<span class="n">string</span><span class="p">.</span><span class="nf">upcase!</span>   <span class="c1"># =&gt; "HELLO WORLD" (modifies original string)</span>
+<span class="nb">puts</span> <span class="n">string</span>      <span class="c1"># =&gt; "HELLO WORLD"</span>
 </pre></td></tr></tbody></table></code></div></div>
 
-<h3 id="2-database-level-locks"><span class="me-2">2. Database-Level Locks</span><a href="#2-database-level-locks" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-<ul>
-  <li>Use database locks to ensure only one process modifies a resource at a time.</li>
-  <li><strong>Optimistic Locking:</strong> Rails provides built-in support for optimistic locking using the <code class="language-plaintext highlighter-rouge">lock_version</code> column. This approach checks if the record was modified by another process before saving.</li>
-</ul>
+<h2 id="the-two-types-of-bang-methods"><span class="me-2">The Two Types of Bang Methods</span><a href="#the-two-types-of-bang-methods" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<p>Bang methods generally fall into two categories, each serving a different purpose in Ruby’s expressive syntax.</p>
 
-<div class="language-ruby highlighter-rouge"><div class="code-header">
-        <span data-label-text="Ruby"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-</pre></td><td class="rouge-code"><pre><span class="k">class</span> <span class="nc">User</span> <span class="o">&lt;</span> <span class="no">ApplicationRecord</span>
-  <span class="c1"># Add lock_version column in the table</span>
-<span class="k">end</span>
-
-<span class="n">user</span> <span class="o">=</span> <span class="no">User</span><span class="p">.</span><span class="nf">find</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
-<span class="n">user</span><span class="p">.</span><span class="nf">balance</span> <span class="o">+=</span> <span class="mi">100</span>
-<span class="n">user</span><span class="p">.</span><span class="nf">save!</span> <span class="c1"># Fails if lock_version has changed</span>
-</pre></td></tr></tbody></table></code></div></div>
-
-<ul>
-  <li><strong>Pessimistic Locking:</strong> Locks the database row to prevent other processes from modifying it until the lock is released.</li>
-</ul>
-
-<div class="language-ruby highlighter-rouge"><div class="code-header">
-        <span data-label-text="Ruby"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-</pre></td><td class="rouge-code"><pre><span class="n">user</span> <span class="o">=</span> <span class="no">User</span><span class="p">.</span><span class="nf">lock</span><span class="p">.</span><span class="nf">find</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
-<span class="n">user</span><span class="p">.</span><span class="nf">balance</span> <span class="o">+=</span> <span class="mi">100</span>
-<span class="n">user</span><span class="p">.</span><span class="nf">save!</span>
-</pre></td></tr></tbody></table></code></div></div>
-
-<h3 id="3-uniqueness-constraints"><span class="me-2">3. Uniqueness Constraints</span><a href="#3-uniqueness-constraints" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-<p>Add database-level constraints (e.g., unique indexes) to prevent duplicate records.</p>
-
-<div class="language-ruby highlighter-rouge"><div class="code-header">
-        <span data-label-text="Ruby"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre><span class="n">add_index</span> <span class="ss">:users</span><span class="p">,</span> <span class="ss">:email</span><span class="p">,</span> <span class="ss">unique: </span><span class="kp">true</span>
-</pre></td></tr></tbody></table></code></div></div>
-
-<h3 id="4-retry-logic"><span class="me-2">4. Retry Logic</span><a href="#4-retry-logic" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-<p>Implement retries for operations that may fail due to race conditions.</p>
-
-<div class="language-ruby highlighter-rouge"><div class="code-header">
-        <span data-label-text="Ruby"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-</pre></td><td class="rouge-code"><pre><span class="k">begin</span>
-  <span class="n">user</span> <span class="o">=</span> <span class="no">User</span><span class="p">.</span><span class="nf">find</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
-  <span class="n">user</span><span class="p">.</span><span class="nf">balance</span> <span class="o">+=</span> <span class="mi">100</span>
-  <span class="n">user</span><span class="p">.</span><span class="nf">save!</span>
-<span class="k">rescue</span> <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">StaleObjectError</span>
-  <span class="k">retry</span>
-<span class="k">end</span>
-</pre></td></tr></tbody></table></code></div></div>
-
-<h3 id="5-background-job-idempotency"><span class="me-2">5. Background Job Idempotency</span><a href="#5-background-job-idempotency" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-<p>Ensure background jobs are idempotent so that running the job multiple times produces the same result.</p>
-
-<h3 id="6-custom-locking-mechanisms"><span class="me-2">6. Custom Locking Mechanisms</span><a href="#6-custom-locking-mechanisms" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-<p>Use Redis locks (e.g., with the <code class="language-plaintext highlighter-rouge">redlock</code> gem) or similar mechanisms for distributed systems.</p>
+<h3 id="mutating-methods"><span class="me-2">Mutating Methods</span><a href="#mutating-methods" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p>The most common bang methods modify the receiver object in place rather than returning a new object. This pattern is prevalent throughout Ruby’s standard library:</p>
 
 <div class="language-ruby highlighter-rouge"><div class="code-header">
         <span data-label-text="Ruby"><i class="fas fa-code fa-fw small"></i></span>
@@ -940,24 +836,280 @@
 6
 7
 8
-</pre></td><td class="rouge-code"><pre><span class="nb">require</span> <span class="s1">'redlock'</span>
+9
+10
+11
+12
+13
+14
+</pre></td><td class="rouge-code"><pre><span class="c1"># Array methods</span>
+<span class="n">arr</span> <span class="o">=</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">5</span><span class="p">]</span>
+<span class="n">arr</span><span class="p">.</span><span class="nf">sort</span>    <span class="c1"># =&gt; [1, 1, 3, 4, 5] (returns new array)</span>
+<span class="n">arr</span><span class="p">.</span><span class="nf">sort!</span>   <span class="c1"># =&gt; [1, 1, 3, 4, 5] (modifies arr in place)</span>
 
-<span class="n">redlock</span> <span class="o">=</span> <span class="no">Redlock</span><span class="o">::</span><span class="no">Client</span><span class="p">.</span><span class="nf">new</span><span class="p">([</span><span class="n">redis_url</span><span class="p">])</span>
-<span class="n">redlock</span><span class="p">.</span><span class="nf">lock</span><span class="p">(</span><span class="s2">"user:</span><span class="si">#{</span><span class="n">user_id</span><span class="si">}</span><span class="s2">:lock"</span><span class="p">,</span> <span class="mi">2000</span><span class="p">)</span> <span class="k">do</span>
-  <span class="n">user</span> <span class="o">=</span> <span class="no">User</span><span class="p">.</span><span class="nf">find</span><span class="p">(</span><span class="n">user_id</span><span class="p">)</span>
-  <span class="n">user</span><span class="p">.</span><span class="nf">balance</span> <span class="o">+=</span> <span class="mi">100</span>
-  <span class="n">user</span><span class="p">.</span><span class="nf">save!</span>
+<span class="c1"># String methods</span>
+<span class="n">str</span> <span class="o">=</span> <span class="s2">"  ruby  "</span>
+<span class="n">str</span><span class="p">.</span><span class="nf">strip</span>   <span class="c1"># =&gt; "ruby" (returns new string)</span>
+<span class="n">str</span><span class="p">.</span><span class="nf">strip!</span>  <span class="c1"># =&gt; "ruby" (modifies str in place)</span>
+
+<span class="c1"># Hash methods</span>
+<span class="nb">hash</span> <span class="o">=</span> <span class="p">{</span> <span class="ss">a: </span><span class="mi">1</span><span class="p">,</span> <span class="ss">b: </span><span class="mi">2</span><span class="p">,</span> <span class="ss">c: </span><span class="mi">3</span> <span class="p">}</span>
+<span class="nb">hash</span><span class="p">.</span><span class="nf">delete_if</span> <span class="p">{</span> <span class="o">|</span><span class="n">k</span><span class="p">,</span> <span class="n">v</span><span class="o">|</span> <span class="n">v</span> <span class="o">&gt;</span> <span class="mi">1</span> <span class="p">}</span>   <span class="c1"># returns new hash</span>
+<span class="nb">hash</span><span class="p">.</span><span class="nf">delete_if!</span> <span class="p">{</span> <span class="o">|</span><span class="n">k</span><span class="p">,</span> <span class="n">v</span><span class="o">|</span> <span class="n">v</span> <span class="o">&gt;</span> <span class="mi">1</span> <span class="p">}</span>  <span class="c1"># modifies hash in place</span>
+</pre></td></tr></tbody></table></code></div></div>
+
+<p>The mutating pattern offers both performance benefits (no object allocation) and semantic clarity (the intent to modify is explicit).</p>
+
+<h3 id="exception-raising-methods"><span class="me-2">Exception-Raising Methods</span><a href="#exception-raising-methods" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p>Some bang methods indicate they raise exceptions in cases where their non-bang counterparts return nil or false:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="code-header">
+        <span data-label-text="Ruby"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+</pre></td><td class="rouge-code"><pre><span class="c1"># Hash access</span>
+<span class="nb">hash</span> <span class="o">=</span> <span class="p">{</span> <span class="ss">name: </span><span class="s2">"Alice"</span> <span class="p">}</span>
+<span class="nb">hash</span><span class="p">[</span><span class="ss">:age</span><span class="p">]</span>   <span class="c1"># =&gt; nil</span>
+<span class="nb">hash</span><span class="p">.</span><span class="nf">fetch</span><span class="p">(</span><span class="ss">:age</span><span class="p">)</span>  <span class="c1"># raises KeyError</span>
+
+<span class="c1"># File operations (hypothetical example)</span>
+<span class="no">File</span><span class="p">.</span><span class="nf">open</span><span class="p">(</span><span class="s2">"nonexistent.txt"</span><span class="p">)</span>   <span class="c1"># might return nil or handle gracefully</span>
+<span class="no">File</span><span class="p">.</span><span class="nf">open!</span><span class="p">(</span><span class="s2">"nonexistent.txt"</span><span class="p">)</span>  <span class="c1"># would raise an exception</span>
+</pre></td></tr></tbody></table></code></div></div>
+
+<p>This pattern is less common but equally important for creating robust, fail-fast code.</p>
+
+<h2 id="performance-considerations"><span class="me-2">Performance Considerations</span><a href="#performance-considerations" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<p>Mutating bang methods can provide significant performance improvements, especially when working with large collections or in memory-constrained environments:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="code-header">
+        <span data-label-text="Ruby"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+</pre></td><td class="rouge-code"><pre><span class="c1"># Memory-intensive approach</span>
+<span class="n">large_array</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span><span class="o">..</span><span class="mi">1_000_000</span><span class="p">).</span><span class="nf">to_a</span>
+<span class="n">sorted_array</span> <span class="o">=</span> <span class="n">large_array</span><span class="p">.</span><span class="nf">sort</span>  <span class="c1"># Creates new array, doubles memory usage</span>
+
+<span class="c1"># Memory-efficient approach</span>
+<span class="n">large_array</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span><span class="o">..</span><span class="mi">1_000_000</span><span class="p">).</span><span class="nf">to_a</span>
+<span class="n">large_array</span><span class="p">.</span><span class="nf">sort!</span>  <span class="c1"># Modifies in place, no additional memory allocation</span>
+</pre></td></tr></tbody></table></code></div></div>
+
+<p>However, this performance gain comes with trade-offs in code safety and debugging complexity.</p>
+
+<h2 id="the-dark-side-when-bang-methods-cause-problems"><span class="me-2">The Dark Side: When Bang Methods Cause Problems</span><a href="#the-dark-side-when-bang-methods-cause-problems" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<p>Bang methods can introduce subtle bugs, particularly around aliasing and unexpected mutations:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="code-header">
+        <span data-label-text="Ruby"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+</pre></td><td class="rouge-code"><pre><span class="k">def</span> <span class="nf">process_data</span><span class="p">(</span><span class="n">items</span><span class="p">)</span>
+  <span class="n">items</span><span class="p">.</span><span class="nf">sort!</span>  <span class="c1"># Oops! This modifies the caller's array</span>
+  <span class="n">items</span><span class="p">.</span><span class="nf">map</span> <span class="p">{</span> <span class="o">|</span><span class="n">item</span><span class="o">|</span> <span class="n">item</span><span class="p">.</span><span class="nf">upcase</span> <span class="p">}</span>
+<span class="k">end</span>
+
+<span class="n">original</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"charlie"</span><span class="p">,</span> <span class="s2">"alice"</span><span class="p">,</span> <span class="s2">"bob"</span><span class="p">]</span>
+<span class="n">result</span> <span class="o">=</span> <span class="n">process_data</span><span class="p">(</span><span class="n">original</span><span class="p">)</span>
+<span class="nb">puts</span> <span class="n">original</span>  <span class="c1"># =&gt; ["alice", "bob", "charlie"] - Surprise!</span>
+</pre></td></tr></tbody></table></code></div></div>
+
+<p>This type of bug is especially problematic because the mutation happens at a distance from where the effect is observed.</p>
+
+<h2 id="best-practices-for-using-bang-methods"><span class="me-2">Best Practices for Using Bang Methods</span><a href="#best-practices-for-using-bang-methods" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<h3 id="use-bang-methods-when-you-own-the-data"><span class="me-2">Use Bang Methods When You Own the Data</span><a href="#use-bang-methods-when-you-own-the-data" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p>Bang methods are safest when you’re working with data you’ve created and control:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="code-header">
+        <span data-label-text="Ruby"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre><span class="k">def</span> <span class="nf">sort_user_names</span>
+  <span class="n">names</span> <span class="o">=</span> <span class="n">fetch_names_from_database</span>
+  <span class="n">names</span><span class="p">.</span><span class="nf">sort!</span>  <span class="c1"># Safe: we created 'names' in this method</span>
+  <span class="n">names</span>
 <span class="k">end</span>
 </pre></td></tr></tbody></table></code></div></div>
 
-<h2 id="tools-for-detecting-race-conditions"><span class="me-2">Tools for Detecting Race Conditions</span><a href="#tools-for-detecting-race-conditions" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<ul>
-  <li><strong>Testing</strong>: Write tests that simulate concurrent requests to uncover race conditions.</li>
-  <li><strong>Concurrency Gems</strong>: Use tools like <code class="language-plaintext highlighter-rouge">rspec-racecar</code> or <code class="language-plaintext highlighter-rouge">parallel_tests</code> for testing concurrency.</li>
-  <li><strong>Database Logging</strong>: Enable detailed database query logs to identify potential race conditions.</li>
-</ul>
+<h2 id="avoid-bang-methods-on-method-parameters"><span class="me-2">Avoid Bang Methods on Method Parameters</span><a href="#avoid-bang-methods-on-method-parameters" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<p>Unless explicitly documented, avoid mutating method parameters:</p>
 
-<p>By understanding the scenarios where race conditions can occur and implementing appropriate safeguards, you can build more robust and reliable Rails applications.</p>
+<div class="language-ruby highlighter-rouge"><div class="code-header">
+        <span data-label-text="Ruby"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+</pre></td><td class="rouge-code"><pre><span class="c1"># Dangerous</span>
+<span class="k">def</span> <span class="nf">format_items</span><span class="p">(</span><span class="n">items</span><span class="p">)</span>
+  <span class="n">items</span><span class="p">.</span><span class="nf">map!</span><span class="p">(</span><span class="o">&amp;</span><span class="ss">:downcase</span><span class="p">)</span>  <span class="c1"># Mutates caller's data</span>
+  <span class="n">items</span><span class="p">.</span><span class="nf">map!</span><span class="p">(</span><span class="o">&amp;</span><span class="ss">:strip</span><span class="p">)</span>
+<span class="k">end</span>
+
+<span class="c1"># Better</span>
+<span class="k">def</span> <span class="nf">format_items</span><span class="p">(</span><span class="n">items</span><span class="p">)</span>
+  <span class="n">items</span><span class="p">.</span><span class="nf">map</span><span class="p">(</span><span class="o">&amp;</span><span class="ss">:downcase</span><span class="p">).</span><span class="nf">map</span><span class="p">(</span><span class="o">&amp;</span><span class="ss">:strip</span><span class="p">)</span>  <span class="c1"># Returns new array</span>
+<span class="k">end</span>
+
+<span class="c1"># Even better: explicit about mutation</span>
+<span class="k">def</span> <span class="nf">format_items!</span><span class="p">(</span><span class="n">items</span><span class="p">)</span>
+  <span class="n">items</span><span class="p">.</span><span class="nf">map!</span><span class="p">(</span><span class="o">&amp;</span><span class="ss">:downcase</span><span class="p">)</span>
+  <span class="n">items</span><span class="p">.</span><span class="nf">map!</span><span class="p">(</span><span class="o">&amp;</span><span class="ss">:strip</span><span class="p">)</span>
+  <span class="n">items</span>
+<span class="k">end</span>
+</pre></td></tr></tbody></table></code></div></div>
+
+<h2 id="document-mutating-behavior"><span class="me-2">Document Mutating Behavior</span><a href="#document-mutating-behavior" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<p>When you do use bang methods on parameters, make it explicit in the method name and documentation:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="code-header">
+        <span data-label-text="Ruby"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+</pre></td><td class="rouge-code"><pre><span class="c1"># Method name indicates mutation</span>
+<span class="k">def</span> <span class="nf">normalize_data!</span><span class="p">(</span><span class="n">dataset</span><span class="p">)</span>
+  <span class="n">dataset</span><span class="p">.</span><span class="nf">compact!</span>
+  <span class="n">dataset</span><span class="p">.</span><span class="nf">uniq!</span>
+  <span class="n">dataset</span><span class="p">.</span><span class="nf">sort!</span>
+  <span class="n">dataset</span>
+<span class="k">end</span>
+</pre></td></tr></tbody></table></code></div></div>
+
+<h2 id="consider-immutable-alternatives"><span class="me-2">Consider Immutable Alternatives</span><a href="#consider-immutable-alternatives" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<p>Sometimes the safest approach is to avoid mutation entirely:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="code-header">
+        <span data-label-text="Ruby"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+</pre></td><td class="rouge-code"><pre><span class="c1"># Instead of this</span>
+<span class="k">def</span> <span class="nf">process_records</span><span class="p">(</span><span class="n">records</span><span class="p">)</span>
+  <span class="n">records</span><span class="p">.</span><span class="nf">select!</span> <span class="p">{</span> <span class="o">|</span><span class="n">r</span><span class="o">|</span> <span class="n">r</span><span class="p">.</span><span class="nf">active?</span> <span class="p">}</span>
+  <span class="n">records</span><span class="p">.</span><span class="nf">sort_by!</span><span class="p">(</span><span class="o">&amp;</span><span class="ss">:created_at</span><span class="p">)</span>
+  <span class="n">records</span>
+<span class="k">end</span>
+
+<span class="c1"># Consider this</span>
+<span class="k">def</span> <span class="nf">process_records</span><span class="p">(</span><span class="n">records</span><span class="p">)</span>
+  <span class="n">records</span>
+    <span class="p">.</span><span class="nf">select</span><span class="p">(</span><span class="o">&amp;</span><span class="ss">:active?</span><span class="p">)</span>
+    <span class="p">.</span><span class="nf">sort_by</span><span class="p">(</span><span class="o">&amp;</span><span class="ss">:created_at</span><span class="p">)</span>
+<span class="k">end</span>
+</pre></td></tr></tbody></table></code></div></div>
+
+<h2 id="advanced-patterns-implementing-your-own-bang-methods"><span class="me-2">Advanced Patterns: Implementing Your Own Bang Methods</span><a href="#advanced-patterns-implementing-your-own-bang-methods" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<p>When creating custom classes, follow Ruby’s conventions for bang methods:</p>
+
+<p>Notice how the bang methods modify the receiver and return <code class="language-plaintext highlighter-rouge">self</code>, while the non-bang methods preserve the original object.</p>
+
+<h2 id="testing-bang-methods"><span class="me-2">Testing Bang Methods</span><a href="#testing-bang-methods" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<p>Bang methods require careful testing to ensure they behave correctly:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="code-header">
+        <span data-label-text="Ruby"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+</pre></td><td class="rouge-code"><pre><span class="no">RSpec</span><span class="p">.</span><span class="nf">describe</span> <span class="no">Array</span> <span class="k">do</span>
+  <span class="n">describe</span> <span class="s2">"#sort!"</span> <span class="k">do</span>
+    <span class="n">it</span> <span class="s2">"modifies the original array"</span> <span class="k">do</span>
+      <span class="n">arr</span> <span class="o">=</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">]</span>
+      <span class="n">result</span> <span class="o">=</span> <span class="n">arr</span><span class="p">.</span><span class="nf">sort!</span>
+
+      <span class="n">expect</span><span class="p">(</span><span class="n">arr</span><span class="p">).</span><span class="nf">to</span> <span class="n">eq</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">])</span>
+      <span class="n">expect</span><span class="p">(</span><span class="n">result</span><span class="p">).</span><span class="nf">to</span> <span class="n">be</span><span class="p">(</span><span class="n">arr</span><span class="p">)</span>  <span class="c1"># Returns the same object</span>
+    <span class="k">end</span>
+  <span class="k">end</span>
+
+  <span class="n">describe</span> <span class="s2">"#sort"</span> <span class="k">do</span>
+    <span class="n">it</span> <span class="s2">"returns a new sorted array"</span> <span class="k">do</span>
+      <span class="n">arr</span> <span class="o">=</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">]</span>
+      <span class="n">result</span> <span class="o">=</span> <span class="n">arr</span><span class="p">.</span><span class="nf">sort</span>
+
+      <span class="n">expect</span><span class="p">(</span><span class="n">result</span><span class="p">).</span><span class="nf">to</span> <span class="n">eq</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">])</span>
+      <span class="n">expect</span><span class="p">(</span><span class="n">arr</span><span class="p">).</span><span class="nf">to</span> <span class="n">eq</span><span class="p">([</span><span class="mi">3</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">])</span>      <span class="c1"># Original unchanged</span>
+      <span class="n">expect</span><span class="p">(</span><span class="n">result</span><span class="p">).</span><span class="nf">not_to</span> <span class="n">be</span><span class="p">(</span><span class="n">arr</span><span class="p">)</span>     <span class="c1"># Different object</span>
+    <span class="k">end</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+</pre></td></tr></tbody></table></code></div></div>
+
+<h2 id="conclusion"><span class="me-2">Conclusion</span><a href="#conclusion" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<p>Bang methods are a powerful feature of Ruby that can make your code more expressive and efficient when used thoughtfully. The key is understanding that they’re not just about performance—they’re about communicating intent and managing the lifecycle of your objects.</p>
+
+<p>Use bang methods when you own the data and want to emphasize mutation. Avoid them when working with data from external sources unless the mutation is the explicit purpose of your method. Most importantly, be consistent and clear about your intentions, whether through method naming, documentation, or code structure.</p>
+
+<p>Remember: the exclamation mark in Ruby is a promise to other developers (including your future self) about how the method behaves. Honor that promise, and your code will be more maintainable, predictable, and Ruby-like.</p>
+
+<p>The best Ruby developers don’t just know how to use bang methods—they know when not to use them. With these guidelines, you’ll be well-equipped to make that judgment call in your own code.</p>
 
 <p>❤️</p>
 
@@ -979,9 +1131,9 @@
         <i class="fa fa-tags fa-fw me-1"></i>
         
           <a
-            href="/tags/ruby-on-rails/"
+            href="/tags/ruby/"
             class="post-tag no-text-decoration"
-          >ruby on rails</a>
+          >ruby</a>
         
       </div>
     
@@ -1017,21 +1169,21 @@
 
       
 
-      <a href="https://twitter.com/intent/tweet?text=Preventing%20Race%20Conditions%20in%20Rails:%20A%20Practical%20Guide%20-%20EAY&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fpreventing-race-conditions-in-rails-a-practical-guide%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+      <a href="https://twitter.com/intent/tweet?text=Bang%20Methods%20in%20Ruby:%20When%20to%20Use%20Them%20and%20When%20to%20Avoid%20Them%20-%20EAY&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fbang-methods-in-ruby-when-to-use-them-and-when-to-avoid-them%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
         <i class="fa-fw fa-brands fa-square-x-twitter"></i>
       </a>
     
 
       
 
-      <a href="https://www.facebook.com/sharer/sharer.php?title=Preventing%20Race%20Conditions%20in%20Rails:%20A%20Practical%20Guide%20-%20EAY&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fpreventing-race-conditions-in-rails-a-practical-guide%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?title=Bang%20Methods%20in%20Ruby:%20When%20to%20Use%20Them%20and%20When%20to%20Avoid%20Them%20-%20EAY&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fbang-methods-in-ruby-when-to-use-them-and-when-to-avoid-them%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
         <i class="fa-fw fab fa-facebook-square"></i>
       </a>
     
 
       
 
-      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fpreventing-race-conditions-in-rails-a-practical-guide%2F&text=Preventing%20Race%20Conditions%20in%20Rails:%20A%20Practical%20Guide%20-%20EAY" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fbang-methods-in-ruby-when-to-use-them-and-when-to-avoid-them%2F&text=Bang%20Methods%20in%20Ruby:%20When%20to%20Use%20Them%20and%20When%20to%20Avoid%20Them%20-%20EAY" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
         <i class="fa-fw fab fa-telegram"></i>
       </a>
     
@@ -1636,103 +1788,103 @@
   
 
   
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
     
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
 
 
 
@@ -1746,36 +1898,6 @@
   <aside id="related-posts" aria-labelledby="related-label">
     <h3 class="mb-4" id="related-label">Further Reading</h3>
     <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
-      
-        <article class="col">
-          <a href="/posts/mid-level-geli%C5%9Ftirici-i%C3%A7in-yol-haritas%C4%B1/" class="post-preview card h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1752558600"
-  data-df="ll"
-  
->
-  Jul 15, 2025
-</time>
-
-              <h4 class="pt-0 my-2">Mid-Level Geliştirici için Yol Haritası</h4>
-              <div class="text-muted">
-                <p>Merhaba 👋
-
-Enderinko podcast’inde yayınladığım Yazılımda Kariyer Rotaları: Junior’lıktan Liderliğe Giden Yolculuk serisinde Mid-Level geliştirici olmaktan bahsetmiştim. Bölümü henüz dinlemediysen b...</p>
-              </div>
-            </div>
-          </a>
-        </article>
       
         <article class="col">
           <a href="/posts/rubyde-abstract-factory-tasarim-deseni/" class="post-preview card h-100">
@@ -1808,7 +1930,7 @@ Uygulamalar büyüdükçe, birbiriyle uyumlu şekilde çalışması gereken nesn
         </article>
       
         <article class="col">
-          <a href="/posts/mcp-and-claude-from-weather-bots-to-email-validation/" class="post-preview card h-100">
+          <a href="/posts/endless-battle-rspec-vs-minitest/" class="post-preview card h-100">
             <div class="card-body">
               <!--
   Date format snippet
@@ -1820,18 +1942,48 @@ Uygulamalar büyüdükçe, birbiriyle uyumlu şekilde çalışması gereken nesn
 
 <time
   
-  data-ts="1746018000"
+  data-ts="1736511180"
   data-df="ll"
   
 >
-  Apr 30, 2025
+  Jan 10, 2025
 </time>
 
-              <h4 class="pt-0 my-2">MCP & Claude: From Weather Bots to Email Validation</h4>
+              <h4 class="pt-0 my-2">Endless Battle: RSpec vs. MiniTest</h4>
               <div class="text-muted">
                 <p>Hello 👋
 
-As everyone working with AI knows, MCP has been a popular topic lately. I wanted to learn about this topic and create a few applications. I was looking into it in my spare time after work,...</p>
+As a Ruby developer, testing is an integral part of the software development lifecycle. Ruby’s vibrant ecosystem provides two prominent testing frameworks: RSpec and MiniTest. While both s...</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
+          <a href="/posts/understanding-ruby-modules-a-guide-for-newbies/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1735908540"
+  data-df="ll"
+  
+>
+  Jan  3, 2025
+</time>
+
+              <h4 class="pt-0 my-2">A Beginner's Guide to Ruby Modules</h4>
+              <div class="text-muted">
+                <p>Hello 👋
+
+I have been writing Ruby since 2010. At the beginning of my Ruby adventure I didn’t have no idea what modules in Ruby is. Ruby is a beginner-friendly programming language but after some ti...</p>
               </div>
             </div>
           </a>
@@ -1852,22 +2004,18 @@ As everyone working with AI knows, MCP has been a popular topic lately. I wanted
 
   
     <a
-      href="/posts/problems-with-if-clauses/"
+      href="/posts/mid-level-geli%C5%9Ftirici-i%C3%A7in-yol-haritas%C4%B1/"
       class="btn btn-outline-primary"
       aria-label="Older"
     >
-      <p>Problems with If Clauses</p>
+      <p>Mid-Level Geliştirici için Yol Haritası</p>
     </a>
   
 
   
-    <a
-      href="/posts/before-you-go-solo-project-a-developer-confrontation-with-themself/"
-      class="btn btn-outline-primary"
-      aria-label="Newer"
-    >
-      <p>Before You Go Solo Project: A Developer Confrontation with Themself</p>
-    </a>
+    <div class="btn btn-outline-primary disabled" aria-label="Newer">
+      <p>-</p>
+    </div>
   
 </nav>
 

@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>EAY</title>
   <subtitle>The running of a free soul</subtitle>
-  <updated>2025-07-15T09:00:57+03:00</updated>
+  <updated>2025-08-02T07:53:00+03:00</updated>
   <author>
     <name>Ender Ahmet Yurt</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,32 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Bang Methods in Ruby: When to Use Them and When to Avoid Them</title>
+    <link href="http://localhost:4000/posts/bang-methods-in-ruby-when-to-use-them-and-when-to-avoid-them/" rel="alternate" type="text/html" title="Bang Methods in Ruby: When to Use Them and When to Avoid Them" />
+    <published>2025-08-01T16:27:00+03:00</published>
+  
+    <updated>2025-08-01T16:27:00+03:00</updated>
+  
+    <id>http://localhost:4000/posts/bang-methods-in-ruby-when-to-use-them-and-when-to-avoid-them/</id>
+    <content src="http://localhost:4000/posts/bang-methods-in-ruby-when-to-use-them-and-when-to-avoid-them/" />
+    <author>
+      <name>Ender Ahmet Yurt</name>
+    </author>
+
+  
+    
+    <category term="Development" />
+    
+  
+
+  <summary>Hello 👋
+
+Ruby’s bang methods (those ending with !) are one of the language’s most distinctive features, yet they’re often misunderstood by developers at all levels. These methods can make your code more expressive and efficient, but they can also introduce subtle bugs if used carelessly. Let’s explore what bang methods really are, when to use them, and the conventions that will make you a bette...</summary>
+
+  </entry>
 
   
   <entry>
@@ -123,32 +149,6 @@ As everyone working with AI knows, MCP has been a popular topic lately. I wanted
 With Rails 8, built-in authentication has been introduced. Although it seems like a small and simple step, for a developer like me who uses Devise in every project, even for basic authentication, it is a significant initiative. I am not going to talk about the Rails Authentication Generator. Instead, I’d like to focus on a small update related to testing in it.
 
 I was very happy to use...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Secure Your Secrets with Rails Credentials</title>
-    <link href="http://localhost:4000/posts/secure-your-secrets-with-rails-credentials/" rel="alternate" type="text/html" title="Secure Your Secrets with Rails Credentials" />
-    <published>2025-02-06T16:51:00+03:00</published>
-  
-    <updated>2025-02-06T16:51:00+03:00</updated>
-  
-    <id>http://localhost:4000/posts/secure-your-secrets-with-rails-credentials/</id>
-    <content src="http://localhost:4000/posts/secure-your-secrets-with-rails-credentials/" />
-    <author>
-      <name>Ender Ahmet Yurt</name>
-    </author>
-
-  
-    
-    <category term="Development" />
-    
-  
-
-  <summary>Hello 👋
-
-Whether you are a junior or senior developer, you know that keeping secrets out of your repository is crucial. From API keys to database passwords, sensitive information should never be hardcoded into your application. Traditionally, developers have used environment variables, the dotenv gem, or YAML-based configurations like secrets.yml to manage secrets. While these methods work, the...</summary>
 
   </entry>
 
